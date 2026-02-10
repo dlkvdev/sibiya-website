@@ -41,7 +41,6 @@ const translations = {
         callUs: "Call Us",
         testimonialsTitle: "What Our Families Say",
         benefitsTitle: "Additional Benefits Across All Covers",
-        fromPrice: "From {price} / month",
         groceryHamper: "Free Grocery Hamper",
         groceryDescription: "Essential groceries delivered to the family prior to the funeral day",
         urbanSupport: "Urban Burial Support (Selected Areas)",
@@ -57,8 +56,6 @@ const translations = {
         joinFamilies: "Join thousands of families who trust us in difficult times.",
         speakToday: "Speak to Us Today",
         branches: "Branches",
-        findNearestBranch: "Find Your Nearest Branch",
-        callUs: "Call Us",
         ourStory: "Our Story",
         ourMission: "Our Mission",
         ourValues: "Our Values",
@@ -145,7 +142,7 @@ function LanguageProvider({ children }) {
         children: children
     }, void 0, false, {
         fileName: "[project]/context/LanguageContext.tsx",
-        lineNumber: 136,
+        lineNumber: 133,
         columnNumber: 5
     }, this);
 }

@@ -475,8 +475,8 @@ img, video {
   height: 2rem;
 }
 
-.h-\[600px\] {
-  height: 600px;
+.h-\[700px\] {
+  height: 700px;
 }
 
 .h-full {
@@ -559,6 +559,10 @@ img, video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-start {
@@ -890,6 +894,11 @@ img, video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-lg {
@@ -1229,6 +1238,21 @@ html, body {
   background: linear-gradient(#020617, #0f172a);
 }
 
+.custom-marker-head {
+  color: #fff !important;
+  background-color: #dc2626 !important;
+  border: 3px solid #991b1b !important;
+  border-radius: 50% !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 36px !important;
+  height: 36px !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  display: flex !important;
+  box-shadow: 0 2px 6px #0006 !important;
+}
+
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -1375,6 +1399,16 @@ html, body {
     text-align: left;
   }
 
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .sm\:text-sm {
     font-size: .875rem;
     line-height: 1.25rem;
@@ -1407,9 +1441,19 @@ html, body {
     gap: 3rem;
   }
 
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .md\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .md\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .md\:text-2xl {
@@ -1427,14 +1471,19 @@ html, body {
     line-height: 1;
   }
 
-  .md\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -1471,6 +1520,11 @@ html, body {
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .lg\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
 

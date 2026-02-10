@@ -931,7 +931,7 @@ function Footer() {
                                     target: "_blank",
                                     rel: "noopener noreferrer",
                                     className: "hover:text-green-400 transition underline underline-offset-2",
-                                    children: "DLKV"
+                                    children: "dlkvdev"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Footer.tsx",
                                     lineNumber: 145,
@@ -1554,7 +1554,7 @@ function Home() {
                         className: "relative z-10 text-center px-6 max-w-4xl mx-auto",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h1, {
-                                className: "text-5xl md:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-xl",
+                                className: "text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-xl",
                                 initial: {
                                     opacity: 0,
                                     y: 50
@@ -1573,7 +1573,7 @@ function Home() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
-                                className: "text-xl md:text-2xl text-white/90 mb-10 drop-shadow-lg",
+                                className: "text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-10 drop-shadow-lg",
                                 initial: {
                                     opacity: 0,
                                     y: 50
@@ -1593,11 +1593,11 @@ function Home() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-col sm:flex-row justify-center gap-6 mb-12",
+                                className: "flex flex-col sm:flex-row justify-center gap-6 mb-12 flex-wrap",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "https://wa.me/27727001800",
-                                        className: "bg-red-600 hover:bg-red-700 text-white font-semibold py-4 px-10 rounded-xl text-lg shadow-xl transition-all hover:scale-105 flex items-center justify-center gap-3",
+                                        className: "bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-8 text-base md:py-4 md:px-10 md:text-lg rounded-xl shadow-xl transition-all hover:scale-105 flex items-center justify-center gap-3",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__["MessageCircle"], {
                                                 size: 24
@@ -1615,7 +1615,7 @@ function Home() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: ()=>setIsQuoteOpen(true),
-                                        className: "bg-green-600 hover:bg-green-700 dark:hover:bg-green-500 text-white font-semibold py-4 px-10 rounded-xl text-lg shadow-xl transition-all hover:scale-105",
+                                        className: "bg-green-600 hover:bg-green-700 dark:hover:bg-green-500 text-white font-semibold py-3 px-8 text-base md:py-4 md:px-10 md:text-lg rounded-xl shadow-xl transition-all hover:scale-105",
                                         children: t("quote")
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
@@ -2594,7 +2594,7 @@ function Home() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "h-[600px] rounded-2xl overflow-hidden shadow-2xl border border-gray-200 dark:border-slate-700",
+                            className: "h-[700px] rounded-2xl overflow-hidden shadow-2xl border border-gray-200 dark:border-slate-700",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$MapContainer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MapContainer"], {
                                 center: [
                                     -29.6,
@@ -2617,178 +2617,119 @@ function Home() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
                                         position: [
-                                            -29.600,
-                                            30.379
+                                            -29.6006,
+                                            30.3794
                                         ],
+                                        icon: L.divIcon({
+                                            className: "custom-marker-head",
+                                            html: '<div style="background-color:#dc2626;color:white;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;border:3px solid #991b1b;">HQ</div>',
+                                            iconSize: [
+                                                32,
+                                                32
+                                            ],
+                                            iconAnchor: [
+                                                16,
+                                                16
+                                            ]
+                                        }),
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "Pietermaritzburg – Boom Street"
+                                                    children: "Head Office – Pietermaritzburg Boom Street"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 642,
+                                                    lineNumber: 652,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 642,
-                                                    columnNumber: 66
+                                                    lineNumber: 652,
+                                                    columnNumber: 78
                                                 }, this),
                                                 "433 Boom Street, Pietermaritzburg",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 643,
+                                                    lineNumber: 653,
                                                     columnNumber: 52
                                                 }, this),
                                                 "Contact: 081 237 1921"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/page.tsx",
-                                            lineNumber: 641,
+                                            lineNumber: 651,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 640,
+                                        lineNumber: 642,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
                                         position: [
-                                            -29.605,
-                                            30.375
+                                            -26.2670,
+                                            28.1220
                                         ],
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "Pietermaritzburg – Langalibalele"
+                                                    children: "Johannesburg Branch"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 649,
+                                                    lineNumber: 661,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 649,
-                                                    columnNumber: 68
+                                                    lineNumber: 661,
+                                                    columnNumber: 55
                                                 }, this),
-                                                "Shop No 2 Selgro 412 Langalibalele Street",
+                                                "10 Helston Street, New Redruth, Alberton",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 650,
-                                                    columnNumber: 60
+                                                    lineNumber: 662,
+                                                    columnNumber: 59
                                                 }, this),
-                                                "Contact: 033 940 3871"
+                                                "Contact: 072 700 1800 (general)"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/page.tsx",
-                                            lineNumber: 648,
+                                            lineNumber: 660,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 647,
+                                        lineNumber: 659,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
                                         position: [
-                                            -29.858,
-                                            31.022
+                                            -27.7580,
+                                            29.9315
                                         ],
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "Durban – Umngeni"
+                                                    children: "Newcastle Branch"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 656,
+                                                    lineNumber: 670,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 656,
+                                                    lineNumber: 670,
                                                     columnNumber: 52
                                                 }, this),
-                                                "74 Umgeni Road, Durban",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                    fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 657,
-                                                    columnNumber: 41
-                                                }, this),
-                                                "Contact: 031 942 5771"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/page.tsx",
-                                            lineNumber: 655,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/page.tsx",
-                                        lineNumber: 654,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
-                                        position: [
-                                            -29.860,
-                                            31.025
-                                        ],
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "Durban – Anton Lembede"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 663,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                    fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 663,
-                                                    columnNumber: 58
-                                                }, this),
-                                                "407 Anton Lembede Rd, Salmon Grove Chamber",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                    fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 664,
-                                                    columnNumber: 61
-                                                }, this),
-                                                "Contact: 031 940 0847"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/page.tsx",
-                                            lineNumber: 662,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/page.tsx",
-                                        lineNumber: 661,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
-                                        position: [
-                                            -29.817,
-                                            30.828
-                                        ],
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "Pinetown"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 670,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                    fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 670,
-                                                    columnNumber: 44
-                                                }, this),
-                                                "79 Crompton Rd, Pinetown",
+                                                "2 Ayliff Street, Newcastle",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
                                                     lineNumber: 671,
-                                                    columnNumber: 43
+                                                    columnNumber: 45
                                                 }, this),
-                                                "Contact: 031 094 9414"
+                                                "Contact: (not provided)"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/page.tsx",
@@ -2802,187 +2743,762 @@ function Home() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
                                         position: [
-                                            -29.123,
-                                            30.592
+                                            -29.6021,
+                                            30.3805
                                         ],
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "Greytown"
+                                                    children: "Pietermaritzburg – Langalibalele Shop No 1"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 677,
+                                                    lineNumber: 679,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 677,
-                                                    columnNumber: 44
+                                                    lineNumber: 679,
+                                                    columnNumber: 78
                                                 }, this),
-                                                "Bell Street Ext, Greytown",
+                                                "412 Langalibalele Street, Pietermaritzburg",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 678,
-                                                    columnNumber: 44
+                                                    lineNumber: 680,
+                                                    columnNumber: 61
                                                 }, this),
-                                                "Contact: 081 586 9800"
+                                                "Contact: 081 330 6840"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/page.tsx",
-                                            lineNumber: 676,
+                                            lineNumber: 678,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 675,
+                                        lineNumber: 677,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
                                         position: [
-                                            -29.357,
-                                            30.570
+                                            -29.6025,
+                                            30.3810
                                         ],
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "Wartburg"
+                                                    children: "Pietermaritzburg – Langalibalele Shop No 2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 684,
+                                                    lineNumber: 687,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 684,
-                                                    columnNumber: 44
+                                                    lineNumber: 687,
+                                                    columnNumber: 78
                                                 }, this),
-                                                "No 7 Mill Road, Wartburg",
+                                                "Shop No 2 Selgro 412 Langalibalele Street, Pietermaritzburg",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 685,
-                                                    columnNumber: 43
+                                                    lineNumber: 688,
+                                                    columnNumber: 78
                                                 }, this),
-                                                "Contact: 081 263 2610"
+                                                "Contact: 033 940 3871"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/page.tsx",
-                                            lineNumber: 683,
+                                            lineNumber: 686,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 682,
+                                        lineNumber: 685,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
                                         position: [
-                                            -28.753,
-                                            31.893
+                                            -30.7414,
+                                            30.4550
                                         ],
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "Empangeni"
+                                                    children: "Port Shepstone Branch"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 691,
+                                                    lineNumber: 695,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 691,
-                                                    columnNumber: 45
-                                                }, this),
-                                                "Shop 4 Clan Angus, 4th and 6th Street",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                    fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 692,
-                                                    columnNumber: 56
-                                                }, this),
-                                                "Contact: 035 787 0106"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/page.tsx",
-                                            lineNumber: 690,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/page.tsx",
-                                        lineNumber: 689,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
-                                        position: [
-                                            -30.741,
-                                            30.455
-                                        ],
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "Port Shepstone"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 698,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                    fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 698,
-                                                    columnNumber: 50
+                                                    lineNumber: 695,
+                                                    columnNumber: 57
                                                 }, this),
                                                 "4 Court House Road, Port Shepstone",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 699,
+                                                    lineNumber: 696,
                                                     columnNumber: 53
                                                 }, this),
                                                 "Contact: 063 292 7628"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/page.tsx",
-                                            lineNumber: 697,
+                                            lineNumber: 694,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 696,
+                                        lineNumber: 693,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
                                         position: [
-                                            -26.267,
-                                            28.122
+                                            -28.7530,
+                                            31.8930
                                         ],
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "Johannesburg"
+                                                    children: "Empangeni Branch"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 705,
+                                                    lineNumber: 703,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 705,
-                                                    columnNumber: 48
+                                                    lineNumber: 703,
+                                                    columnNumber: 52
                                                 }, this),
-                                                "10 Helston Street, New Redruth, Alberton",
+                                                "Shop 4 Clan Angus, 4th and 6th Street, Empangeni",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 706,
-                                                    columnNumber: 59
+                                                    lineNumber: 704,
+                                                    columnNumber: 67
                                                 }, this),
-                                                "Contact: 072 700 1800 (general)"
+                                                "Contact: 035 787 0106"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/page.tsx",
-                                            lineNumber: 704,
+                                            lineNumber: 702,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 703,
+                                        lineNumber: 701,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -29.1233,
+                                            30.5928
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Greytown Branch"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 711,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 711,
+                                                    columnNumber: 51
+                                                }, this),
+                                                "Bell Street Ext / Office no 1 & 2, 102 Bell Street, Greytown",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 712,
+                                                    columnNumber: 79
+                                                }, this),
+                                                "Contact: 081 586 9800"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 710,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 709,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -29.4300,
+                                            30.5700
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Wartburg Branch"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 719,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 719,
+                                                    columnNumber: 51
+                                                }, this),
+                                                "No 7 Mill Road, Wartburg",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 720,
+                                                    columnNumber: 43
+                                                }, this),
+                                                "Contact: 081 263 2610"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 718,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 717,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -29.8000,
+                                            29.7670
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Bulwer Branch"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 727,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 727,
+                                                    columnNumber: 49
+                                                }, this),
+                                                "Jackson St, Office No 3, Stavcom Centre, Bulwer",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 728,
+                                                    columnNumber: 66
+                                                }, this),
+                                                "Contact: (not provided)"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 726,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 725,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -28.5597,
+                                            29.7806
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Ladysmith Branch"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 735,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 735,
+                                                    columnNumber: 52
+                                                }, this),
+                                                "26 King St, Ladysmith",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 736,
+                                                    columnNumber: 40
+                                                }, this),
+                                                "Contact: (not provided)"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 734,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 733,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -29.0383,
+                                            29.7800
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Estcourt Branch"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 743,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 743,
+                                                    columnNumber: 51
+                                                }, this),
+                                                "35 Market St, Mooi River (Estcourt area)",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 744,
+                                                    columnNumber: 59
+                                                }, this),
+                                                "Contact: 036 352 1111"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 742,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 741,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -29.2082,
+                                            29.9946
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Mooi River Branch"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 751,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 751,
+                                                    columnNumber: 53
+                                                }, this),
+                                                "35 Market St, Mooi River",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 752,
+                                                    columnNumber: 43
+                                                }, this),
+                                                "Contact: (not provided)"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 750,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 749,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -29.3709,
+                                            30.8800
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Bhamshela Branch"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 759,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 759,
+                                                    columnNumber: 52
+                                                }, this),
+                                                "614 No 16 Noodsburg Road, Bhamshela",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 760,
+                                                    columnNumber: 54
+                                                }, this),
+                                                "Contact: (not provided)"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 758,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 757,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -29.3400,
+                                            30.7300
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Dalton Branch"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 767,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 767,
+                                                    columnNumber: 49
+                                                }, this),
+                                                "Shop No 2, Market Centre, 4 Noordsberg Road, Dalton",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 768,
+                                                    columnNumber: 70
+                                                }, this),
+                                                "Contact: (not provided)"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 766,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 765,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -29.8587,
+                                            31.0218
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Durban – Umngeni Branch"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 775,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 775,
+                                                    columnNumber: 59
+                                                }, this),
+                                                "74 Umngeni Road, Durban",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 776,
+                                                    columnNumber: 42
+                                                }, this),
+                                                "Contact: 031 942 5771"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 774,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 773,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -29.8608,
+                                            31.0203
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Durban – Anton Lembede Branch"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 783,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 783,
+                                                    columnNumber: 65
+                                                }, this),
+                                                "407 Anton Lembede Rd, Salmon Grove Chamber, Durban",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 784,
+                                                    columnNumber: 69
+                                                }, this),
+                                                "Contact: 031 940 0847"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 782,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 781,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -29.8138,
+                                            30.8658
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Pinetown Branch"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 791,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 791,
+                                                    columnNumber: 51
+                                                }, this),
+                                                "79 Crompton Rd, Pinetown",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 792,
+                                                    columnNumber: 43
+                                                }, this),
+                                                "Contact: 031 094 9414"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 790,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 789,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -29.7976,
+                                            30.6194
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Webber Branch"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 799,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 799,
+                                                    columnNumber: 49
+                                                }, this),
+                                                "Shop no 18-19, Webber Shopping Centre",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 800,
+                                                    columnNumber: 56
+                                                }, this),
+                                                "Contact: (not provided)"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 798,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 797,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -29.7975,
+                                            30.6194
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Hammarsdale Branch"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 807,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 807,
+                                                    columnNumber: 54
+                                                }, this),
+                                                "Black Properties, Hammarsdale",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 808,
+                                                    columnNumber: 48
+                                                }, this),
+                                                "Contact: (not provided)"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 806,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 805,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -29.4778,
+                                            30.2306
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Howick Branch"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 815,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 815,
+                                                    columnNumber: 49
+                                                }, this),
+                                                "27 Somi Street, Howick",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 816,
+                                                    columnNumber: 41
+                                                }, this),
+                                                "Contact: (not provided)"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 814,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 813,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -29.8720,
+                                            30.2724
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Richmond Branch"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 823,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 823,
+                                                    columnNumber: 51
+                                                }, this),
+                                                "Chilly Street, Richmond",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 824,
+                                                    columnNumber: 42
+                                                }, this),
+                                                "Contact: (not provided)"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 822,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 821,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Marker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Marker"], {
+                                        position: [
+                                            -29.6019,
+                                            29.8650
+                                        ],
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Popup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popup"], {
+                                            className: "custom-popup",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Impendle – Ikhwezi Street"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 831,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 831,
+                                                    columnNumber: 61
+                                                }, this),
+                                                "162 Ikhwezi Street, Impendle",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/app/page.tsx",
+                                                    lineNumber: 832,
+                                                    columnNumber: 47
+                                                }, this),
+                                                "Contact: (not provided)"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 830,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 829,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -3001,7 +3517,7 @@ function Home() {
                             children: "20+ branches across KwaZulu-Natal and Johannesburg. Call 072 700 1800 for your nearest location or exact directions."
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 712,
+                            lineNumber: 839,
                             columnNumber: 11
                         }, this)
                     ]
@@ -3025,15 +3541,15 @@ function Home() {
                             children: "Find Your Nearest Branch"
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 721,
+                            lineNumber: 848,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-lg text-gray-700 dark:text-gray-300 mb-6",
-                            children: "With over 20 branches in KZN and Johannesburg – we're here 24/7."
+                            children: "With over 25 branches in KZN and Johannesburg – we're here 24/7."
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 724,
+                            lineNumber: 851,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -3044,14 +3560,14 @@ function Home() {
                                     size: 24
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 731,
+                                    lineNumber: 858,
                                     columnNumber: 13
                                 }, this),
                                 "Call 072 700 1800 Now"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 727,
+                            lineNumber: 854,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3059,23 +3575,23 @@ function Home() {
                             children: "Full interactive map available on desktop/large screens"
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 734,
+                            lineNumber: 861,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/page.tsx",
-                    lineNumber: 720,
+                    lineNumber: 847,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 719,
+                lineNumber: 846,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 740,
+                lineNumber: 867,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$QuoteModal$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3083,7 +3599,7 @@ function Home() {
                 onClose: ()=>setIsQuoteOpen(false)
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 742,
+                lineNumber: 869,
                 columnNumber: 7
             }, this),
             selectedCover && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$CoverModal$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3092,7 +3608,7 @@ function Home() {
                 cover: selectedCover
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 745,
+                lineNumber: 872,
                 columnNumber: 9
             }, this),
             showFloatingButton && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3104,7 +3620,7 @@ function Home() {
                         size: 28
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 758,
+                        lineNumber: 885,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3112,13 +3628,13 @@ function Home() {
                         children: "Get Quote"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 759,
+                        lineNumber: 886,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 753,
+                lineNumber: 880,
                 columnNumber: 9
             }, this)
         ]

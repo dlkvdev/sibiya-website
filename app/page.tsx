@@ -1,5 +1,6 @@
 "use client";
 
+import L from 'leaflet';
 import { motion, AnimatePresence } from "framer-motion";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
@@ -269,7 +270,7 @@ export default function Home() {
         </div>
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
           <motion.h1
-            className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-xl"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-xl"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
@@ -277,24 +278,24 @@ export default function Home() {
             {t("slogan")}
           </motion.h1>
           <motion.p
-            className="text-xl md:text-2xl text-white/90 mb-10 drop-shadow-lg"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-10 drop-shadow-lg"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
             {t("heroSubtitle")}
           </motion.p>
-          <div className="flex flex-col sm:flex-row justify-center gap-6 mb-12">
+          <div className="flex flex-col sm:flex-row justify-center gap-6 mb-12 flex-wrap">
             <a
               href="https://wa.me/27727001800"
-              className="bg-red-600 hover:bg-red-700 text-white font-semibold py-4 px-10 rounded-xl text-lg shadow-xl transition-all hover:scale-105 flex items-center justify-center gap-3"
+              className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-8 text-base md:py-4 md:px-10 md:text-lg rounded-xl shadow-xl transition-all hover:scale-105 flex items-center justify-center gap-3"
             >
               <MessageCircle size={24} />
               {t("emergency")}
             </a>
             <button
               onClick={() => setIsQuoteOpen(true)}
-              className="bg-green-600 hover:bg-green-700 dark:hover:bg-green-500 text-white font-semibold py-4 px-10 rounded-xl text-lg shadow-xl transition-all hover:scale-105"
+              className="bg-green-600 hover:bg-green-700 dark:hover:bg-green-500 text-white font-semibold py-3 px-8 text-base md:py-4 md:px-10 md:text-lg rounded-xl shadow-xl transition-all hover:scale-105"
             >
               {t("quote")}
             </button>
@@ -620,15 +621,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Interactive Branches Map – visible on lg+ screens */}
+     {/* Interactive Branches Map – visible on lg+ screens */}
       <section className="py-20 bg-gray-50 dark:bg-slate-800 hidden lg:block">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-gray-900 dark:text-gray-100 text-center mb-12">
             Our Branches Across KwaZulu-Natal & Johannesburg
           </h2>
-          <div className="h-[600px] rounded-2xl overflow-hidden shadow-2xl border border-gray-200 dark:border-slate-700">
+          <div className="h-[700px] rounded-2xl overflow-hidden shadow-2xl border border-gray-200 dark:border-slate-700">
             <MapContainer
-              center={[-29.6, 30.38]}
+              center={[-29.6, 30.38]} // Centered on Pietermaritzburg area
               zoom={8}
               style={{ height: "100%", width: "100%" }}
               className="z-0"
@@ -637,76 +638,203 @@ export default function Home() {
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               />
-              <Marker position={[-29.600, 30.379]}>
-                <Popup>
-                  <strong>Pietermaritzburg – Boom Street</strong><br />
+
+              {/* Head Office - Boom Street (different red icon) */}
+              <Marker 
+                position={[-29.6006, 30.3794]}
+                icon={L.divIcon({
+                  className: "custom-marker-head",
+                  html: '<div style="background-color:#dc2626;color:white;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;border:3px solid #991b1b;">HQ</div>',
+                  iconSize: [32, 32],
+                  iconAnchor: [16, 16],
+                })}
+              >
+                <Popup className="custom-popup">
+                  <strong>Head Office – Pietermaritzburg Boom Street</strong><br />
                   433 Boom Street, Pietermaritzburg<br />
                   Contact: 081 237 1921
                 </Popup>
               </Marker>
-              <Marker position={[-29.605, 30.375]}>
-                <Popup>
-                  <strong>Pietermaritzburg – Langalibalele</strong><br />
-                  Shop No 2 Selgro 412 Langalibalele Street<br />
-                  Contact: 033 940 3871
-                </Popup>
-              </Marker>
-              <Marker position={[-29.858, 31.022]}>
-                <Popup>
-                  <strong>Durban – Umngeni</strong><br />
-                  74 Umgeni Road, Durban<br />
-                  Contact: 031 942 5771
-                </Popup>
-              </Marker>
-              <Marker position={[-29.860, 31.025]}>
-                <Popup>
-                  <strong>Durban – Anton Lembede</strong><br />
-                  407 Anton Lembede Rd, Salmon Grove Chamber<br />
-                  Contact: 031 940 0847
-                </Popup>
-              </Marker>
-              <Marker position={[-29.817, 30.828]}>
-                <Popup>
-                  <strong>Pinetown</strong><br />
-                  79 Crompton Rd, Pinetown<br />
-                  Contact: 031 094 9414
-                </Popup>
-              </Marker>
-              <Marker position={[-29.123, 30.592]}>
-                <Popup>
-                  <strong>Greytown</strong><br />
-                  Bell Street Ext, Greytown<br />
-                  Contact: 081 586 9800
-                </Popup>
-              </Marker>
-              <Marker position={[-29.357, 30.570]}>
-                <Popup>
-                  <strong>Wartburg</strong><br />
-                  No 7 Mill Road, Wartburg<br />
-                  Contact: 081 263 2610
-                </Popup>
-              </Marker>
-              <Marker position={[-28.753, 31.893]}>
-                <Popup>
-                  <strong>Empangeni</strong><br />
-                  Shop 4 Clan Angus, 4th and 6th Street<br />
-                  Contact: 035 787 0106
-                </Popup>
-              </Marker>
-              <Marker position={[-30.741, 30.455]}>
-                <Popup>
-                  <strong>Port Shepstone</strong><br />
-                  4 Court House Road, Port Shepstone<br />
-                  Contact: 063 292 7628
-                </Popup>
-              </Marker>
-              <Marker position={[-26.267, 28.122]}>
-                <Popup>
-                  <strong>Johannesburg</strong><br />
+
+              {/* Johannesburg – New Redruth, Alberton */}
+              <Marker position={[-26.2670, 28.1220]}>
+                <Popup className="custom-popup">
+                  <strong>Johannesburg Branch</strong><br />
                   10 Helston Street, New Redruth, Alberton<br />
                   Contact: 072 700 1800 (general)
                 </Popup>
               </Marker>
+
+              {/* Newcastle – 2 Ayliff Street */}
+              <Marker position={[-27.7580, 29.9315]}>
+                <Popup className="custom-popup">
+                  <strong>Newcastle Branch</strong><br />
+                  2 Ayliff Street, Newcastle<br />
+                  Contact: (not provided)
+                </Popup>
+              </Marker>
+
+              {/* All other existing branches – keeping them unchanged */}
+              <Marker position={[-29.6021, 30.3805]}>
+                <Popup className="custom-popup">
+                  <strong>Pietermaritzburg – Langalibalele Shop No 1</strong><br />
+                  412 Langalibalele Street, Pietermaritzburg<br />
+                  Contact: 081 330 6840
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.6025, 30.3810]}>
+                <Popup className="custom-popup">
+                  <strong>Pietermaritzburg – Langalibalele Shop No 2</strong><br />
+                  Shop No 2 Selgro 412 Langalibalele Street, Pietermaritzburg<br />
+                  Contact: 033 940 3871
+                </Popup>
+              </Marker>
+
+              <Marker position={[-30.7414, 30.4550]}>
+                <Popup className="custom-popup">
+                  <strong>Port Shepstone Branch</strong><br />
+                  4 Court House Road, Port Shepstone<br />
+                  Contact: 063 292 7628
+                </Popup>
+              </Marker>
+
+              <Marker position={[-28.7530, 31.8930]}>
+                <Popup className="custom-popup">
+                  <strong>Empangeni Branch</strong><br />
+                  Shop 4 Clan Angus, 4th and 6th Street, Empangeni<br />
+                  Contact: 035 787 0106
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.1233, 30.5928]}>
+                <Popup className="custom-popup">
+                  <strong>Greytown Branch</strong><br />
+                  Bell Street Ext / Office no 1 & 2, 102 Bell Street, Greytown<br />
+                  Contact: 081 586 9800
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.4300, 30.5700]}>
+                <Popup className="custom-popup">
+                  <strong>Wartburg Branch</strong><br />
+                  No 7 Mill Road, Wartburg<br />
+                  Contact: 081 263 2610
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.8000, 29.7670]}>
+                <Popup className="custom-popup">
+                  <strong>Bulwer Branch</strong><br />
+                  Jackson St, Office No 3, Stavcom Centre, Bulwer<br />
+                  Contact: (not provided)
+                </Popup>
+              </Marker>
+
+              <Marker position={[-28.5597, 29.7806]}>
+                <Popup className="custom-popup">
+                  <strong>Ladysmith Branch</strong><br />
+                  26 King St, Ladysmith<br />
+                  Contact: (not provided)
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.0383, 29.7800]}>
+                <Popup className="custom-popup">
+                  <strong>Estcourt Branch</strong><br />
+                  35 Market St, Mooi River (Estcourt area)<br />
+                  Contact: 036 352 1111
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.2082, 29.9946]}>
+                <Popup className="custom-popup">
+                  <strong>Mooi River Branch</strong><br />
+                  35 Market St, Mooi River<br />
+                  Contact: (not provided)
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.3709, 30.8800]}>
+                <Popup className="custom-popup">
+                  <strong>Bhamshela Branch</strong><br />
+                  614 No 16 Noodsburg Road, Bhamshela<br />
+                  Contact: (not provided)
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.3400, 30.7300]}>
+                <Popup className="custom-popup">
+                  <strong>Dalton Branch</strong><br />
+                  Shop No 2, Market Centre, 4 Noordsberg Road, Dalton<br />
+                  Contact: (not provided)
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.8587, 31.0218]}>
+                <Popup className="custom-popup">
+                  <strong>Durban – Umngeni Branch</strong><br />
+                  74 Umngeni Road, Durban<br />
+                  Contact: 031 942 5771
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.8608, 31.0203]}>
+                <Popup className="custom-popup">
+                  <strong>Durban – Anton Lembede Branch</strong><br />
+                  407 Anton Lembede Rd, Salmon Grove Chamber, Durban<br />
+                  Contact: 031 940 0847
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.8138, 30.8658]}>
+                <Popup className="custom-popup">
+                  <strong>Pinetown Branch</strong><br />
+                  79 Crompton Rd, Pinetown<br />
+                  Contact: 031 094 9414
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.7976, 30.6194]}>
+                <Popup className="custom-popup">
+                  <strong>Webber Branch</strong><br />
+                  Shop no 18-19, Webber Shopping Centre<br />
+                  Contact: (not provided)
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.7975, 30.6194]}>
+                <Popup className="custom-popup">
+                  <strong>Hammarsdale Branch</strong><br />
+                  Black Properties, Hammarsdale<br />
+                  Contact: (not provided)
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.4778, 30.2306]}>
+                <Popup className="custom-popup">
+                  <strong>Howick Branch</strong><br />
+                  27 Somi Street, Howick<br />
+                  Contact: (not provided)
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.8720, 30.2724]}>
+                <Popup className="custom-popup">
+                  <strong>Richmond Branch</strong><br />
+                  Chilly Street, Richmond<br />
+                  Contact: (not provided)
+                </Popup>
+              </Marker>
+
+              <Marker position={[-29.6019, 29.8650]}>
+                <Popup className="custom-popup">
+                  <strong>Impendle – Ikhwezi Street</strong><br />
+                  162 Ikhwezi Street, Impendle<br />
+                  Contact: (not provided)
+                </Popup>
+              </Marker>
+
             </MapContainer>
           </div>
           <p className="text-center mt-6 text-gray-600 dark:text-gray-400">
@@ -722,7 +850,7 @@ export default function Home() {
             Find Your Nearest Branch
           </h2>
           <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-            With over 20 branches in KZN and Johannesburg – we're here 24/7.
+            With over 25 branches in KZN and Johannesburg – we're here 24/7.
           </p>
           <a
             href="tel:+27727001800"

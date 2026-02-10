@@ -148,7 +148,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="hover:text-green-400 transition underline underline-offset-2"
             >
-              DLKV
+              dlkvdev
             </a>
           </p>
         </div>
