@@ -152,6 +152,7 @@ export default function Header() {
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
             className="fixed inset-0 z-50 bg-blue-950/95 backdrop-blur-md flex flex-col overflow-y-auto lg:hidden"
           >
+            {/* Drawer header */}
             <div className="flex items-center justify-between p-6 border-b border-blue-800">
               <div className="text-xl font-bold text-white">Menu</div>
               <button
@@ -163,12 +164,13 @@ export default function Header() {
               </button>
             </div>
 
+            {/* Nav links - now bright gold */}
             <nav className="flex flex-col p-6 space-y-6 text-lg">
               {navItems.map((item) => (
                 <Link
                   key={item.key}
                   href={item.href}
-                  className="hover:text-green-400 transition-colors py-2"
+                  className="text-yellow-300 hover:text-green-400 transition-colors py-2 font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {t(item.key)}
@@ -181,7 +183,7 @@ export default function Header() {
               <div className="flex flex-col space-y-6">
                 <button
                   onClick={toggleLanguage}
-                  className="flex items-center gap-4 text-lg hover:text-green-400 transition-colors"
+                  className="flex items-center gap-4 text-lg text-yellow-300 hover:text-green-400 transition-colors"
                 >
                   <Globe size={24} />
                   <span>Language: {language.toUpperCase()}</span>
@@ -189,7 +191,7 @@ export default function Header() {
 
                 <button
                   onClick={toggleTheme}
-                  className="flex items-center gap-4 text-lg hover:text-green-400 transition-colors"
+                  className="flex items-center gap-4 text-lg text-yellow-300 hover:text-green-400 transition-colors"
                 >
                   {theme === "dark" ? <Sun size={24} /> : <Moon size={24} />}
                   <span>{theme === "dark" ? "Light Mode" : "Dark Mode"}</span>
@@ -197,44 +199,8 @@ export default function Header() {
               </div>
             </div>
 
-            {/* Social Icons - Mobile Drawer */}
-            <div className="px-6 py-6 border-t border-blue-800">
-              <h4 className="text-lg font-semibold mb-4 text-blue-50 text-center sm:text-left">
-                Connect With Us
-              </h4>
-              <div className="flex justify-center sm:justify-start gap-8">
-                <a
-                  href="https://www.facebook.com/sibiyafuneralservices"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-green-400 transition"
-                  aria-label="Facebook"
-                >
-                  <Facebook size={32} />
-                </a>
-                <a
-                  href="https://www.tiktok.com/@sibiyafuneralsofficial"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-green-400 transition"
-                  aria-label="TikTok"
-                >
-                  <Video size={32} />
-                </a>
-                <a
-                  href="https://www.youtube.com/@SibiyaFuneralServicesOfficial"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-green-400 transition"
-                  aria-label="YouTube"
-                >
-                  <Youtube size={32} />
-                </a>
-              </div>
-            </div>
-
             {/* Emergency contact */}
-            <div className="mt-auto p-6 border-t border-blue-800 text-sm text-blue-200">
+            <div className="mt-auto p-6 border-t border-blue-800 text-sm text-yellow-200">
               <p className="font-medium">24/7 Emergency:</p>
               <a href="tel:+27727001800" className="hover:text-green-400 transition">
                 072 700 1800

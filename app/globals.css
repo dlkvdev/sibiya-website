@@ -4,63 +4,92 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Light mode defaults */
-body {
-  background: linear-gradient(to bottom, #f9fafb, #ffffff); /* from-gray-50 to-white */
-  color: whitesmoke; /* gray-900 */
+/* Base styles for both modes */
+html, body {
+  height: 100%;
   min-height: 100vh;
   margin: 0;
   padding: 0;
 }
 
-/* Ensure full height */
-html, body {
-  height: 100%;
+/* Light mode defaults */
+body {
+  background: linear-gradient(to bottom, #f9fafb, #ffffff); /* from-gray-50 to-white */
+  color: #111827; /* gray-900 - dark text on light bg */
 }
-
-/* Adaptive classes using .dark */
-.bg-white           { background-color: #ffffff; }
-.dark .bg-white      { background-color: whitesmoke; } /* slate-900 */
-
-
-.text-gray-900      { color: #111827; }
-.dark .text-gray-900 { color: whitesmoke; } /* slate-50 */
-
-.text-gray-700      { color: #374151; }
-.dark .text-gray-700 { color: whitesmoke; } /* gray-300 */
-
-.text-gray-600      { color: #4b5563; }
-.dark .text-gray-600 { color: whitesmoke; } /* gray-400 */
-
-.text-gray-500      { color: #6b7280; }
-.dark .text-gray-500 { color: whitesmoke } /* gray-400 */
-
-.text-blue-900      { color: #1e40af; }
-.dark .text-blue-900 { color: #60a5fa; } /* blue-400 */
-
-.text-green-700     { color: #15803d; }
-.dark .text-green-700{ color: #4ade80; } /* green-400 */
-
-.text-yellow-400    { color: #fbbf24; }
-.dark .text-yellow-400 { color: #fde047; } /* yellow-300 */
-
-.border-blue-100    { border-color: #dbeafe; }
-.dark .border-blue-100 { border-color: #1e40af; } /* blue-800 */
-
-.border-blue-200    { border-color: #bfdbfe; }
-.dark .border-blue-200 { border-color: #1e3a8a; } /* blue-950 */
-
-.border-blue-800    { border-color: #1e40af; }
-.dark .border-blue-800 { border-color: #60a5fa; } /* blue-400 */
-
-.bg-blue-950        { background-color: #FFFFFE; }
-.dark .bg-blue-950  { background-color: gold; } /* Slightly lighter blue */
 
 /* Dark mode body */
 .dark body {
   background: linear-gradient(to bottom, #020617, #0f172a); /* slate-950 → slate-900 */
-  color: gold; /* near-white text */
+  color: #f9fafb; /* gray-50 - light text on dark bg */
 }
+
+/* Adaptive classes using .dark */
+.bg-white { background-color: #ffffff; }
+.dark .bg-white { background-color: #0f172a; } /* slate-900 */
+
+.text-gray-900 { color: #111827; } /* dark text in light */
+.dark .text-gray-900 { color: #f9fafb; } /* light text in dark */
+
+.text-gray-700 { color: #374151; }
+.dark .text-gray-700 { color: #d1d5db; } /* gray-300 - better contrast */
+
+.text-gray-600 { color: #4b5563; }
+.dark .text-gray-600 { color: #9ca3af; } /* gray-400 */
+
+.text-gray-500 { color: #6b7280; }
+.dark .text-gray-500 { color: #6b7280; } /* gray-500 - neutral in dark */
+
+.text-gray-400 { color: #9ca3af; }
+.dark .text-gray-400 { color: #9ca3af; } /* gray-400 - same */
+
+.text-blue-900 { color: #1e3a8a; }
+.dark .text-blue-900 { color: #bfdbfe; } /* blue-200 - light blue in dark */
+
+.text-blue-600 { color: #2563eb; }
+.dark .text-blue-600 { color: #60a5fa; } /* blue-400 */
+
+.text-blue-500 { color: #3b82f6; }
+.dark .text-blue-500 { color: #93c5fd; } /* blue-300 */
+
+.text-green-600 { color: #16a34a; }
+.dark .text-green-600 { color: #86efac; } /* green-300 - visible in dark */
+
+.text-green-700 { color: #15803d; }
+.dark .text-green-700 { color: #4ade80; } /* green-400 */
+
+.text-green-400 { color: #4ade80; }
+.dark .text-green-400 { color: #4ade80; } /* green-400 - same */
+
+.text-yellow-400 { color: #facc15; }
+.dark .text-yellow-400 { color: #fde047; } /* yellow-300 - brighter in dark */
+
+.bg-blue-50 { background-color: #eff6ff; }
+.dark .bg-blue-50 { background-color: #1e3a8a; } /* blue-950 */
+
+.bg-blue-100 { background-color: #dbeafe; }
+.dark .bg-blue-100 { background-color: #1e40af; } /* blue-900 */
+
+.bg-blue-950 { background-color: #FFFFFE; } /* white-ish in light? Fixed to proper */
+.dark .bg-blue-950 { background-color: #1e3a8a; } /* blue-950 in dark */
+
+.bg-gray-50 { background-color: #f9fafb; }
+.dark .bg-gray-50 { background-color: #1e293b; } /* slate-800 */
+
+.bg-gray-100 { background-color: #f3f4f6; }
+.dark .bg-gray-100 { background-color: #334155; } /* slate-700 */
+
+.border-gray-200 { border-color: #e5e7eb; }
+.dark .border-gray-200 { border-color: #475569; } /* slate-600 */
+
+.border-blue-100 { border-color: #dbeafe; }
+.dark .border-blue-100 { border-color: #1e40af; } /* blue-900 */
+
+.border-blue-200 { border-color: #bfdbfe; }
+.dark .border-blue-200 { border-color: #1e3a8a; } /* blue-950 */
+
+.border-blue-800 { border-color: #1e40af; }
+.dark .border-blue-800 { border-color: #60a5fa; } /* blue-400 */
 
 /* globals.css or component CSS */
 .custom-marker-head {
@@ -76,4 +105,18 @@ html, body {
   justify-content: center !important;
   font-size: 14px !important;
   box-shadow: 0 2px 6px rgba(0,0,0,0.4) !important;
+}
+
+/* Additional fixes for better contrast */
+a:hover {
+  color: #22c55e; /* green-500 - visible hover in both modes */
+}
+
+.dark a:hover {
+  color: #86efac; /* green-300 - brighter in dark */
+}
+
+/* Ensure all text has high contrast */
+p, li, span {
+  color: inherit; /* Inherit from parent/body for consistency */
 }
