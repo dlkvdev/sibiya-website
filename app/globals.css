@@ -1,0 +1,62 @@
+@import url('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light mode defaults */
+body {
+  background: linear-gradient(to bottom, #f9fafb, #ffffff); /* from-gray-50 to-white */
+  color: #111827; /* gray-900 */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure full height */
+html, body {
+  height: 100%;
+}
+
+/* Adaptive classes using .dark */
+.bg-white           { background-color: #ffffff; }
+.dark .bg-white      { background-color: #0f172a; } /* slate-900 */
+
+.text-gray-900      { color: #111827; }
+.dark .text-gray-900 { color: #f8fafc; } /* slate-50 */
+
+.text-gray-700      { color: #374151; }
+.dark .text-gray-700 { color: #d1d5db; } /* gray-300 */
+
+.text-gray-600      { color: #4b5563; }
+.dark .text-gray-600 { color: #9ca3af; } /* gray-400 */
+
+.text-gray-500      { color: #6b7280; }
+.dark .text-gray-500 { color: #9ca3af; } /* gray-400 */
+
+.text-blue-900      { color: #1e40af; }
+.dark .text-blue-900 { color: #60a5fa; } /* blue-400 */
+
+.text-green-700     { color: #15803d; }
+.dark .text-green-700{ color: #4ade80; } /* green-400 */
+
+.text-yellow-400    { color: #fbbf24; }
+.dark .text-yellow-400 { color: #fde047; } /* yellow-300 */
+
+.border-blue-100    { border-color: #dbeafe; }
+.dark .border-blue-100 { border-color: #1e40af; } /* blue-800 */
+
+.border-blue-200    { border-color: #bfdbfe; }
+.dark .border-blue-200 { border-color: #1e3a8a; } /* blue-950 */
+
+.border-blue-800    { border-color: #1e40af; }
+.dark .border-blue-800 { border-color: #60a5fa; } /* blue-400 */
+
+.bg-blue-950        { background-color: #1e3a8a; }
+.dark .bg-blue-950  { background-color: #1e40af; } /* Slightly lighter blue */
+
+/* Dark mode body */
+.dark body {
+  background: linear-gradient(to bottom, #020617, #0f172a); /* slate-950 → slate-900 */
+  color: #f8fafc; /* near-white text */
+}
