@@ -7,7 +7,7 @@
 /* Light mode defaults */
 body {
   background: linear-gradient(to bottom, #f9fafb, #ffffff); /* from-gray-50 to-white */
-  color: #111827; /* gray-900 */
+  color: whitesmoke; /* gray-900 */
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -20,19 +20,20 @@ html, body {
 
 /* Adaptive classes using .dark */
 .bg-white           { background-color: #ffffff; }
-.dark .bg-white      { background-color: #0f172a; } /* slate-900 */
+.dark .bg-white      { background-color: whitesmoke; } /* slate-900 */
+
 
 .text-gray-900      { color: #111827; }
-.dark .text-gray-900 { color: #f8fafc; } /* slate-50 */
+.dark .text-gray-900 { color: whitesmoke; } /* slate-50 */
 
 .text-gray-700      { color: #374151; }
-.dark .text-gray-700 { color: #d1d5db; } /* gray-300 */
+.dark .text-gray-700 { color: whitesmoke; } /* gray-300 */
 
 .text-gray-600      { color: #4b5563; }
-.dark .text-gray-600 { color: #9ca3af; } /* gray-400 */
+.dark .text-gray-600 { color: whitesmoke; } /* gray-400 */
 
 .text-gray-500      { color: #6b7280; }
-.dark .text-gray-500 { color: #9ca3af; } /* gray-400 */
+.dark .text-gray-500 { color: whitesmoke } /* gray-400 */
 
 .text-blue-900      { color: #1e40af; }
 .dark .text-blue-900 { color: #60a5fa; } /* blue-400 */
@@ -52,13 +53,13 @@ html, body {
 .border-blue-800    { border-color: #1e40af; }
 .dark .border-blue-800 { border-color: #60a5fa; } /* blue-400 */
 
-.bg-blue-950        { background-color: #1e3a8a; }
-.dark .bg-blue-950  { background-color: #1e40af; } /* Slightly lighter blue */
+.bg-blue-950        { background-color: #FFFFFE; }
+.dark .bg-blue-950  { background-color: gold; } /* Slightly lighter blue */
 
 /* Dark mode body */
 .dark body {
   background: linear-gradient(to bottom, #020617, #0f172a); /* slate-950 → slate-900 */
-  color: #f8fafc; /* near-white text */
+  color: gold; /* near-white text */
 }
 
 /* globals.css or component CSS */
