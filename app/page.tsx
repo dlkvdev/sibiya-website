@@ -270,36 +270,35 @@ export default function Home() {
         </div>
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
           <motion.h1
-          className="font-['Playwrite_NZ_Basic'] text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-normal text-white mb-6 leading-tight drop-shadow-xl"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-        >
-          {t("slogan")}
-        </motion.h1>
-
-        <motion.p
-          className="font-['Playwrite_IN_Guides'] text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-10 drop-shadow-lg"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.2 }}
-        >
-          {t("heroSubtitle")}
-        </motion.p>
+            className="font-['Playwrite_NZ_Basic'] text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-normal text-white mb-6 leading-tight drop-shadow-xl"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+          >
+            {t("slogan")}
+          </motion.h1>
+          <motion.p
+            className="font-['Playwrite_IN_Guides'] text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-10 drop-shadow-lg"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.2 }}
+          >
+            {t("heroSubtitle")}
+          </motion.p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-6 mb-12 flex-wrap">
             <a
               href="https://wa.me/27727001800"
-              className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-8 text-base md:py-4 md:px-10 md:text-lg rounded-xl shadow-xl transition-all hover:scale-105 flex items-center justify-center gap-3"
+              className="bg-transparent hover:bg-red-600 text-white font-semibold py-2 px-6 text-sm md:py-3 md:px-8 md:text-base rounded-xl shadow-xl transition-all duration-300 hover:scale-105 flex items-center justify-center gap-3 border border-red-600 hover:border-red-600"
             >
-              <MessageCircle size={24} />
+              <MessageCircle size={20} />
               {t("emergency")}
             </a>
             <button
               onClick={() => setIsQuoteOpen(true)}
-              className="bg-green-600 hover:bg-green-700 dark:hover:bg-green-500 text-white font-semibold py-3 px-8 text-base md:py-4 md:px-10 md:text-lg rounded-xl shadow-xl transition-all hover:scale-105"
+              className="bg-transparent hover:bg-green-600 text-white font-semibold py-2 px-6 text-sm md:py-3 md:px-8 md:text-base rounded-xl shadow-xl transition-all duration-300 hover:scale-105 border border-green-600 hover:border-green-600"
             >
-              {t("quote")}
+              {t("talkToUs")}
             </button>
           </div>
 
@@ -551,6 +550,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-gray-900 dark:text-gray-100 text-center mb-16">
             {t("testimonialsTitle")}
           </h2>
+
           <div
             className="relative"
             onMouseEnter={() => setIsPaused(true)}
@@ -592,6 +592,7 @@ export default function Home() {
                 </div>
               </motion.div>
             </AnimatePresence>
+
             <div className="flex justify-center gap-3 mt-8">
               {testimonials.map((_, index) => (
                 <button
@@ -610,6 +611,7 @@ export default function Home() {
               ))}
             </div>
           </div>
+
           <div className="text-center mt-16">
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
               {t("joinFamilies")}
