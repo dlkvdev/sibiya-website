@@ -270,21 +270,23 @@ export default function Home() {
         </div>
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
           <motion.h1
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-xl"
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
-          >
-            {t("slogan")}
-          </motion.h1>
-          <motion.p
-            className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-10 drop-shadow-lg"
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.2 }}
-          >
-            {t("heroSubtitle")}
-          </motion.p>
+          className="font-['Playwrite_NZ_Basic'] text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-normal text-white mb-6 leading-tight drop-shadow-xl"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
+          {t("slogan")}
+        </motion.h1>
+
+        <motion.p
+          className="font-['Playwrite_IN_Guides'] text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-10 drop-shadow-lg"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.2 }}
+        >
+          {t("heroSubtitle")}
+        </motion.p>
+
           <div className="flex flex-col sm:flex-row justify-center gap-6 mb-12 flex-wrap">
             <a
               href="https://wa.me/27727001800"
@@ -300,6 +302,7 @@ export default function Home() {
               {t("quote")}
             </button>
           </div>
+
           {/* Animated scroll-down arrow */}
           <motion.div
             className="mt-8 flex justify-center"

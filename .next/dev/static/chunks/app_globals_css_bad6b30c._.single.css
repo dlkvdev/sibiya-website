@@ -482,10 +482,6 @@ img, video {
   height: 100%;
 }
 
-.min-h-\[calc\(100vh-4rem\)\] {
-  min-height: calc(100vh - 4rem);
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -875,6 +871,14 @@ img, video {
   font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
+.font-\[\'Playwrite_IN_Guides\'\] {
+  font-family: Playwrite IN Guides;
+}
+
+.font-\[\'Playwrite_NZ_Basic\'\] {
+  font-family: Playwrite NZ Basic;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -926,6 +930,10 @@ img, video {
 
 .font-medium {
   font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .font-semibold {

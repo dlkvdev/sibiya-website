@@ -83,7 +83,7 @@ const translations = {
         seeMore: "Bona Okuningi",
         findNearestBranch: "Thola Igatsha Eliseduze Nawe",
         callUs: "Sishayele",
-        benefitsTitle: "Izinzuzo Ezingeziwe Kuzo Zonke Izimbozo",
+        benefitsTitle: "Izinzuzo Ezingeziwe Kumakhava Onke",
         groceryHamper: "Iphekhi Lamahhala Legrosa",
         groceryDescription: "Izimpahla eziyisisekelo ziletwa emndenini ngaphambi kosuku lomngcwabo",
         urbanSupport: "Ukusekela Umngcwabo Wedolobha (Izindawo Ezikhethiwe)",
