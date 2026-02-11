@@ -1164,22 +1164,14 @@ body {
   background: linear-gradient(#000, #0f172a);
 }
 
-footer {
-  color: #f9fafb;
-  background-color: #1e3a8a;
+.bg-white, .bg-gray-50, .bg-blue-50, .bg-blue-100, section {
+  background-color: #fff;
 }
 
-.dark footer {
-  color: #fff;
-  background-color: #000;
-}
-
-header.scrolled {
-  background-color: #1e3a8a !important;
-}
-
-.dark header.scrolled {
+.dark .bg-white, .dark .bg-gray-50, .dark .bg-blue-50, .dark .bg-blue-100, .dark section, .dark .rounded-2xl, .dark .shadow-xl {
+  color: #f9fafb !important;
   background-color: #000 !important;
+  border: 1px solid #334155 !important;
 }
 
 .text-gray-900 {
@@ -1238,24 +1230,30 @@ header.scrolled {
   color: #fde047;
 }
 
-footer a, footer p, footer h3, footer h4, footer span {
-  color: #f9fafb !important;
+footer {
+  color: #111827;
+  background-color: #fff;
 }
 
-.dark footer a:hover, .dark footer a:focus {
-  color: #86efac !important;
+.dark footer {
+  color: #fff;
+  background-color: #000;
 }
 
-.text-yellow-300, .dark .text-yellow-300 {
+header.scrolled {
+  background-color: #0000;
+}
+
+.dark header.scrolled {
+  background-color: #000 !important;
+}
+
+.text-yellow-300 {
   color: #fde047;
 }
 
-.icon-white, .dark .icon-white {
-  color: #fff !important;
-}
-
-a, button {
-  transition: color .2s;
+.dark .text-yellow-300 {
+  color: #f3f4f6;
 }
 
 a:hover, button:hover {
@@ -1279,6 +1277,32 @@ a:hover, button:hover {
   font-weight: bold !important;
   display: flex !important;
   box-shadow: 0 2px 6px #0006 !important;
+}
+
+a[href*="facebook"], a[href*="tiktok"], a[href*="youtube"] svg {
+  color: inherit;
+}
+
+a[href*="facebook"] svg, a[href*="tiktok"] svg, a[href*="youtube"] svg {
+  color: #fff !important;
+  fill: #fff !important;
+  background-color: #0000 !important;
+}
+
+a[href*="facebook"], a[href*="tiktok"], a[href*="youtube"] {
+  background-color: #0000 !important;
+  border: none !important;
+}
+
+a[href*="facebook"]:hover svg, a[href*="tiktok"]:hover svg, a[href*="youtube"]:hover svg {
+  color: #22c55e !important;
+  fill: #22c55e !important;
+}
+
+.dark a[href*="facebook"] svg, .dark a[href*="tiktok"] svg, .dark a[href*="youtube"] svg {
+  color: #fff !important;
+  fill: #fff !important;
+  background-color: #0000 !important;
 }
 
 .hover\:scale-105:hover {

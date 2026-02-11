@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Base styles */
+/* Base styles - light mode unchanged */
 html, body {
   height: 100%;
   min-height: 100vh;
@@ -12,40 +12,41 @@ html, body {
   padding: 0;
 }
 
-/* Light mode defaults */
+/* Light mode (original) */
 body {
-  background: linear-gradient(to bottom, #f9fafb, #ffffff); /* light gray to white */
-  color: #111827; /* dark text */
+  background: linear-gradient(to bottom, #f9fafb, #ffffff);
+  color: #111827; /* gray-900 */
 }
 
 /* Dark mode body */
 .dark body {
   background: linear-gradient(to bottom, #000000, #0f172a); /* black → slate-950 */
-  color: #f9fafb; /* very light text */
+  color: #f9fafb; /* white/light text */
 }
 
-/* Footer - light mode: navy blue */
-footer {
-  background-color: #1e3a8a; /* blue-950 navy */
-  color: #f9fafb; /* white text */
+/* Cards/sections in light mode (original) */
+.bg-white,
+.bg-gray-50,
+.bg-blue-50,
+.bg-blue-100,
+section {
+  background-color: #ffffff;
 }
 
-/* Footer - dark mode: pure black */
-.dark footer {
-  background-color: #000000; /* true black */
-  color: #ffffff;
+/* Dark mode cards/sections - black bg + white text + subtle border */
+.dark .bg-white,
+.dark .bg-gray-50,
+.dark .bg-blue-50,
+.dark .bg-blue-100,
+.dark section,
+.dark .rounded-2xl,
+.dark .shadow-xl {
+  background-color: #000000 !important;
+  color: #f9fafb !important;
+  border: 1px solid #334155 !important; /* subtle slate-700 border */
 }
 
-/* Header - scrolled state */
-header.scrolled {
-  background-color: #1e3a8a !important; /* navy in light */
-}
-
-.dark header.scrolled {
-  background-color: #000000 !important; /* black in dark */
-}
-
-/* Adaptive text colors (high contrast everywhere) */
+/* Text contrast fixes - only where needed */
 .text-gray-900 { color: #111827; }
 .dark .text-gray-900 { color: #f9fafb; }
 
@@ -65,39 +66,44 @@ header.scrolled {
 .dark .text-green-600 { color: #86efac; }
 
 .text-yellow-400 { color: #facc15; }
-.dark .text-yellow-400 { color: #fde047; }
+.dark .text-yellow-400 { color: #fde047; } /* keep yellow stars in dark */
 
-/* Footer-specific overrides */
-footer a, footer p, footer h3, footer h4, footer span {
-  color: #f9fafb !important; /* force white in both modes */
+/* Footer - light: original, dark: black */
+footer {
+  background-color: #ffffff; /* original light footer */
+  color: #111827;
 }
 
-.dark footer a:hover, .dark footer a:focus {
-  color: #86efac !important; /* green hover in dark */
+.dark footer {
+  background-color: #000000;
+  color: #ffffff;
 }
 
-/* Mobile drawer (hamburger menu) text */
-.text-yellow-300 { color: #fde047; }
-.dark .text-yellow-300 { color: #fde047; } /* keep bright gold visible */
-
-/* Icons & symbols - ensure they are white/light */
-.icon-white { color: #ffffff !important; }
-.dark .icon-white { color: #ffffff !important; }
-
-/* Additional high-contrast fixes */
-a, button {
-  transition: color 0.2s;
+/* Header scrolled - light: original, dark: black */
+header.scrolled {
+  background-color: transparent; /* or your original */
 }
 
-a:hover, button:hover {
-  color: #22c55e !important; /* green-500 hover */
+.dark header.scrolled {
+  background-color: #000000 !important;
 }
 
-.dark a:hover, .dark button:hover {
-  color: #86efac !important; /* green-300 in dark */
+/* Mobile drawer text - keep original colors (no forced gold/yellow) */
+.text-yellow-300 { color: #fde047; } /* if you still have it somewhere */
+.dark .text-yellow-300 { color: #f3f4f6; } /* light gray in dark */
+
+/* Hover states - original */
+a:hover,
+button:hover {
+  color: #22c55e !important;
 }
 
-/* Custom marker (already good, but reinforce contrast) */
+.dark a:hover,
+.dark button:hover {
+  color: #86efac !important;
+}
+
+/* Custom marker (HQ symbol stays as you wanted) */
 .custom-marker-head {
   background-color: #dc2626 !important;
   border: 3px solid #991b1b !important;
@@ -111,4 +117,52 @@ a:hover, button:hover {
   justify-content: center !important;
   font-size: 14px !important;
   box-shadow: 0 2px 6px rgba(0,0,0,0.4) !important;
+}
+
+/* IMPORTANT: No forced white on all icons/symbols - revert to original behavior */
+svg,
+[data-lucide],
+.lucide-icon {
+  /* No !important color overrides here - let original classes handle it */
+}
+
+/* Social icons - original colors */
+a[href*="facebook"],
+a[href*="tiktok"],
+a[href*="youtube"] svg {
+  color: inherit; /* inherit from parent */
+}
+
+/* Social icons in light mode - white / light background */
+a[href*="facebook"] svg,
+a[href*="tiktok"] svg,
+a[href*="youtube"] svg {
+  color: #ffffff !important; /* white icons */
+  fill: #ffffff !important;
+  background-color: transparent !important; /* no dark bg */
+}
+
+/* Ensure no dark background on social links in light mode */
+a[href*="facebook"],
+a[href*="tiktok"],
+a[href*="youtube"] {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+/* Hover state - keep green hover, but icons stay white */
+a[href*="facebook"]:hover svg,
+a[href*="tiktok"]:hover svg,
+a[href*="youtube"]:hover svg {
+  color: #22c55e !important; /* green-500 on hover */
+  fill: #22c55e !important;
+}
+
+/* In dark mode - keep icons white/light as before */
+.dark a[href*="facebook"] svg,
+.dark a[href*="tiktok"] svg,
+.dark a[href*="youtube"] svg {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+  background-color: transparent !important;
 }
