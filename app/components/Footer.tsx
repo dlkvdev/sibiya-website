@@ -102,7 +102,7 @@ export default function Footer() {
                 <Facebook className="w-8 h-8" />
               </a>
               <a
-                href="https://www.tiktok.com/@sibiyafuneralservicesofficial"
+                href="https://www.tiktok.com/@sibiyafuneralsofficial"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-green-400 transition"
@@ -111,7 +111,7 @@ export default function Footer() {
                 <Video className="w-8 h-8" />
               </a>
               <a
-                href="https://www.youtube.com/@sibiyafuneralservices"
+                href="https://www.youtube.com/@SibiyaFuneralServicesOfficial"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-green-400 transition"

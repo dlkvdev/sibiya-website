@@ -55,8 +55,6 @@ const translations = {
         joinFamilies: "Join thousands of families who trust us in difficult times.",
         speakToday: "Speak to Us Today",
         branches: "Branches",
-        findNearestBranch: "Find Your Nearest Branch",
-        callUs: "Call Us",
         ourStory: "Our Story",
         ourMission: "Our Mission",
         ourValues: "Our Values",
@@ -71,9 +69,7 @@ const translations = {
         ourBranches: "Our Branches",
         thousandsServed: "Thousands of families served with dignity and care.",
         talkToUs: "Talk to Us",
-        testimonialsTitle: "What Our Families Say",
-        joinFamilies: "Join thousands of families who trust us in difficult times.",
-        speakToday: "Speak to Us Today"
+        testimonialsTitle: "What Our Clients Say?"
     },
     zu: {
         home: "Ikhaya",
@@ -81,19 +77,19 @@ const translations = {
         contactUs: "Xhumana Nathi",
         slogan: "Umndeni Wethu Unakekela Owakho",
         heroSubtitle: "Isevisi Zomngcwabo Ezinomusa Nezinesithunzi Kusuka Ngo-2008",
-        emergency: "Usizo Lwezimo Ezidingo Ezihuthumayo 24/7",
+        emergency: "Usizo Lwezimo Ezidingo Ezi[huthumayo 24/7",
         quote: "Thola Isilinganiso",
-        legacyTitle: "Umlando wethu wobubele",
+        legacyTitle: "Isikompilo lethu lokuzwelana",
         years: "Iminyaka Yokuzinikela",
-        families: "Imindeni Eduduziwe Ngenhlonipho",
+        families: "Imindeni Eyesekwe Ngenhlonipho",
         support: "Ukusekela, Emini Nasebusuku",
-        coversTitle: "Amakhava Ethu Omngcwabo Avelele",
+        coversTitle: "Izimbozo Zethu Zomngcwabo Ezivelele",
         coversSubtitle: "Amaqoqo enzelwe ukuxuba isiko, ububele, nokuthengeka. Hlola ngakunye ukuze uthole imininingwane.",
         fromPrice: "Kusuka ku-{price} / ngenyanga",
         seeMore: "Bona Okuningi",
         findNearestBranch: "Thola Igatsha Eliseduze Nawe",
         callUs: "Sishayele",
-        benefitsTitle: "Izinzuzo Ezingeziwe Kuwo wonke amakhava",
+        benefitsTitle: "Izinzuzo Ezingeziwe Kuwo wonke Amakhava",
         groceryHamper: "Iphekhi Lamahhala Legrosa",
         groceryDescription: "Izigcagco eziyisisekelo ziletwa emndenini ngaphambi kosuku lomngcwabo",
         urbanSupport: "Ukusekela Umngcwabo Wedolobha (Izindawo Ezikhethiwe)",
@@ -109,8 +105,6 @@ const translations = {
         joinFamilies: "Joyina imindeni eminingi ethembele kithi ngezikhathi ezinzima.",
         speakToday: "Khuluma Nathi Namhlanje",
         branches: "Amagatsha",
-        findNearestBranch: "Thola Igatsha Eliseduze Nawe",
-        callUs: "Sishayele",
         ourStory: "Indaba Yethu",
         ourMission: "Inhloso Yethu",
         ourValues: "Izimiso Zethu",
@@ -125,9 +119,7 @@ const translations = {
         ourBranches: "Amagatsha Ethu",
         thousandsServed: "Izinkulungwane zemindeni esekelwe ngesithunzi nokunakekelwa",
         talkToUs: "Khuluma Nathi",
-        testimonialsTitle: "Okushiwo Imindeni Ngathi",
-        joinFamilies: "Joyina imindeni eminingi ethembele kithi ngezikhathi ezinzima.",
-        speakToday: "Khuluma Nathi Namhlanje"
+        testimonialsTitle: "Bathini abantu ngathi?"
     }
 };
 const LanguageContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createContext"])(undefined);
@@ -152,7 +144,7 @@ function LanguageProvider({ children }) {
         children: children
     }, void 0, false, {
         fileName: "[project]/context/LanguageContext.tsx",
-        lineNumber: 143,
+        lineNumber: 135,
         columnNumber: 5
     }, this);
 }
@@ -439,7 +431,7 @@ function Header() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "https://www.tiktok.com/@sibiyafuneralservicesofficial",
+                                            href: "https://www.tiktok.com/@sibiyafuneralsofficial",
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             className: "text-white hover:text-green-400 transition-colors p-2",
@@ -457,7 +449,7 @@ function Header() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "https://www.youtube.com/@sibiyafuneralservices",
+                                            href: "https://www.youtube.com/@SibiyaFuneralServicesOfficial",
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             className: "text-white hover:text-green-400 transition-colors p-2",
@@ -655,6 +647,86 @@ function Header() {
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "px-6 py-6 border-t border-blue-800",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                    className: "text-lg font-semibold mb-4 text-blue-50 text-center sm:text-left",
+                                    children: "Connect With Us"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/components/Header.tsx",
+                                    lineNumber: 204,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex justify-center gap-8",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "https://www.facebook.com/sibiyafuneralservices",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "text-yellow-300 hover:text-green-400 transition-colors",
+                                            "aria-label": "Facebook",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__["Facebook"], {
+                                                size: 32
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/components/Header.tsx",
+                                                lineNumber: 215,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/components/Header.tsx",
+                                            lineNumber: 208,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "https://www.tiktok.com/@sibiyafuneralservicesofficial",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "text-yellow-300 hover:text-green-400 transition-colors",
+                                            "aria-label": "TikTok",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$video$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Video$3e$__["Video"], {
+                                                size: 32
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/components/Header.tsx",
+                                                lineNumber: 224,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/components/Header.tsx",
+                                            lineNumber: 217,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "https://www.youtube.com/@sibiyafuneralservices",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "text-yellow-300 hover:text-green-400 transition-colors",
+                                            "aria-label": "YouTube",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$youtube$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Youtube$3e$__["Youtube"], {
+                                                size: 32
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/components/Header.tsx",
+                                                lineNumber: 233,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/components/Header.tsx",
+                                            lineNumber: 226,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/components/Header.tsx",
+                                    lineNumber: 207,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/components/Header.tsx",
+                            lineNumber: 203,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "mt-auto p-6 border-t border-blue-800 text-sm text-yellow-200",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -662,7 +734,7 @@ function Header() {
                                     children: "24/7 Emergency:"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Header.tsx",
-                                    lineNumber: 204,
+                                    lineNumber: 240,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -671,13 +743,13 @@ function Header() {
                                     children: "072 700 1800"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Header.tsx",
-                                    lineNumber: 205,
+                                    lineNumber: 241,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/components/Header.tsx",
-                            lineNumber: 203,
+                            lineNumber: 239,
                             columnNumber: 13
                         }, this)
                     ]

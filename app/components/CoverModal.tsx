@@ -16,7 +16,7 @@ export default function CoverModal({ isOpen, onClose, cover }: CoverModalProps) 
     const whatsappMessage = encodeURIComponent(
       `Hi Sibiya Team,\n\nI'd like to select ${cover.title} - ${cover.subtitle}.\nCan you guide me through the next steps?\n\nThank you.`
     );
-    window.open(`https://wa.me/27781977630?text=${whatsappMessage}`, "_blank");
+    window.open(`https://wa.me/27727001800?text=${whatsappMessage}`, "_blank");
     onClose();
   };
 

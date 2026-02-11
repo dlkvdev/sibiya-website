@@ -111,7 +111,7 @@ export default function Header() {
                 <Facebook size={24} />
               </a>
               <a
-                href="https://www.tiktok.com/@sibiyafuneralservicesofficial"
+                href="https://www.tiktok.com/@sibiyafuneralsofficial"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-green-400 transition-colors p-2"
@@ -120,7 +120,7 @@ export default function Header() {
                 <Video size={24} />
               </a>
               <a
-                href="https://www.youtube.com/@sibiyafuneralservices" // ← your actual channel
+                href="https://www.youtube.com/@SibiyaFuneralServicesOfficial"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-green-400 transition-colors p-2"
@@ -164,7 +164,7 @@ export default function Header() {
               </button>
             </div>
 
-            {/* Nav links - now bright gold */}
+            {/* Nav links */}
             <nav className="flex flex-col p-6 space-y-6 text-lg">
               {navItems.map((item) => (
                 <Link
@@ -196,6 +196,42 @@ export default function Header() {
                   {theme === "dark" ? <Sun size={24} /> : <Moon size={24} />}
                   <span>{theme === "dark" ? "Light Mode" : "Dark Mode"}</span>
                 </button>
+              </div>
+            </div>
+
+            {/* Social Icons - Reinstated in Mobile Drawer */}
+            <div className="px-6 py-6 border-t border-blue-800">
+              <h4 className="text-lg font-semibold mb-4 text-blue-50 text-center sm:text-left">
+                Connect With Us
+              </h4>
+              <div className="flex justify-center gap-8">
+                <a
+                  href="https://www.facebook.com/sibiyafuneralservices"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-yellow-300 hover:text-green-400 transition-colors"
+                  aria-label="Facebook"
+                >
+                  <Facebook size={32} />
+                </a>
+                <a
+                  href="https://www.tiktok.com/@sibiyafuneralservicesofficial"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-yellow-300 hover:text-green-400 transition-colors"
+                  aria-label="TikTok"
+                >
+                  <Video size={32} />
+                </a>
+                <a
+                  href="https://www.youtube.com/@sibiyafuneralservices"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-yellow-300 hover:text-green-400 transition-colors"
+                  aria-label="YouTube"
+                >
+                  <Youtube size={32} />
+                </a>
               </div>
             </div>
 

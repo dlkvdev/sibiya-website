@@ -1,50 +1,68 @@
-[00:00:01.157] Server  LOG     ✓ Ready in 773ms
-[00:00:02.155] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:03.474] Browser LOG     Applying theme: light
-[00:02:34.178] Server  LOG     ✓ Compiled in 915ms
-[00:02:40.975] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:41.449] Browser LOG     Applying theme: light
-[00:04:23.575] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:04:23.829] Server  LOG     ✓ Compiled in 79ms
-[00:04:24.206] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:25.465] Browser LOG     Applying theme: light
-[00:05:12.628] Server  LOG     ✓ Compiled in 67ms
-[00:05:12.636] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:05:15.792] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:16.822] Browser LOG     Applying theme: light
-[00:06:00.330] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:06:00.331] Server  LOG     ✓ Compiled in 60ms
-[00:06:01.201] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:02.469] Browser LOG     Applying theme: light
-[00:06:22.329] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:06:22.340] Server  LOG     ✓ Compiled in 75ms
-[00:06:22.980] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:23.551] Browser LOG     Applying theme: light
-[00:07:06.085] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:07:06.100] Server  LOG     ✓ Compiled in 104ms
-[00:07:07.530] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:08.518] Browser LOG     Applying theme: light
-[00:07:17.069] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:07:17.092] Server  LOG     ✓ Compiled in 44ms
-[00:07:17.761] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:18.451] Browser LOG     Applying theme: light
-[00:07:28.826] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:07:28.836] Server  LOG     ✓ Compiled in 43ms
-[00:07:29.454] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:30.448] Browser LOG     Applying theme: light
-[00:07:56.987] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:07:57.006] Server  LOG     ✓ Compiled in 44ms
-[00:07:57.611] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:58.453] Browser LOG     Applying theme: light
-[00:08:06.028] Server  LOG     ✓ Compiled in 44ms
-[00:08:06.031] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:08:06.668] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:07.474] Browser LOG     Applying theme: light
-[00:08:42.652] Server  LOG     ✓ Compiled in 54ms
-[00:08:42.653] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:08:43.922] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:45.447] Browser LOG     Applying theme: light
-[00:08:56.171] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:08:56.173] Server  LOG     ✓ Compiled in 53ms
-[00:08:56.784] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:57.483] Browser LOG     Applying theme: light
+[00:00:30.061] Server  LOG     ✓ Ready in 20.2s
+[00:00:33.283] Server  LOG     ○ Compiling / ...
+[00:00:42.744] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:45.239] Browser LOG     Applying theme: light
+[00:08:53.429] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:53.835] Browser LOG     Applying theme: light
+[00:39:47.666] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:48.148] Browser LOG     Applying theme: light
+[00:42:12.932] Server  LOG     ✓ Compiled in 17.4s
+[00:42:19.824] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:20.258] Browser LOG     Applying theme: light
+[00:44:03.058] Server  LOG     ✓ Compiled in 145ms
+[00:44:03.068] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:44:03.690] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:05.245] Browser LOG     Applying theme: light
+[00:45:01.314] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:45:01.329] Server  LOG     ✓ Compiled in 52ms
+[00:45:01.820] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:03.243] Browser LOG     Applying theme: light
+[00:45:09.564] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:45:09.578] Server  LOG     ✓ Compiled in 42ms
+[00:45:10.108] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:11.241] Browser LOG     Applying theme: light
+[00:45:45.345] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:45:45.365] Server  LOG     ✓ Compiled in 49ms
+[00:45:45.894] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:47.271] Browser LOG     Applying theme: light
+[00:46:00.367] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:46:00.388] Server  LOG     ✓ Compiled in 51ms
+[00:46:00.919] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:02.279] Browser LOG     Applying theme: light
+[00:49:00.789] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:49:00.789] Server  LOG     ✓ Compiled in 51ms
+[00:49:01.410] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:49:02.493] Browser LOG     Applying theme: light
+[00:49:25.703] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:49:25.711] Server  LOG     ✓ Compiled in 49ms
+[00:49:26.191] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:49:27.255] Browser LOG     Applying theme: light
+[00:50:00.949] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:50:01.179] Server  LOG     ✓ Compiled in 83ms
+[00:50:01.443] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:02.261] Browser LOG     Applying theme: light
+[00:50:07.243] Server  LOG     ✓ Compiled in 54ms
+[00:50:07.250] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:50:07.715] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:08.316] Browser LOG     Applying theme: light
+[00:51:42.698] Server  LOG     ✓ Compiled in 168ms
+[00:55:33.812] Server  LOG     ✓ Compiled in 519ms
+[00:56:59.243] Server  LOG     ✓ Compiled in 120ms
+[00:57:53.167] Server  LOG     ✓ Compiled in 135ms
+[00:58:14.516] Server  LOG     ✓ Compiled in 130ms
+[00:59:30.625] Server  LOG     ✓ Compiled in 134ms
+[01:00:24.855] Server  LOG     ✓ Compiled in 159ms
+[01:04:41.759] Server  LOG     ✓ Compiled in 152ms
+[01:05:16.888] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:17.375] Browser LOG     Applying theme: light
+[01:09:21.850] Server  LOG     ✓ Compiled in 129ms
+[01:31:46.680] Browser LOG     Toggle: light → dark
+[01:31:46.680] Browser LOG     Toggle: light → dark
+[01:31:46.680] Browser LOG     Applying theme: dark
+[01:31:48.453] Browser LOG     Toggle: dark → light
+[01:31:48.453] Browser LOG     Toggle: dark → light
+[01:31:48.453] Browser LOG     Applying theme: light
+[01:35:13.984] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./context/LanguageContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:35:13.990] Server  LOG     ✓ Compiled in 69ms
+[01:35:14.654] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:35:16.267] Browser LOG     Applying theme: light

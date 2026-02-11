@@ -161,7 +161,7 @@ const covers = [
     subtitle: "Casket",
     tagline: "Enhanced Comfort and Respect",
     price: "R390",
-    image: "/images/products/casket1.jpg",
+    image: "/images/products/casket2.jpeg",
     benefits: [
       { item: "Casket", icon: <ArrowDownCircle size={20} /> },
       { item: "Hearse", icon: <Car size={20} /> },
@@ -371,7 +371,7 @@ export default function Home() {
               <HeartHandshake className="w-16 h-16 text-blue-900 dark:text-blue-300 mx-auto mb-6" />
               <CountUp
                 start={startCounting ? 0 : undefined}
-                end={50000}
+                end={100000}
                 duration={2.5}
                 separator=","
                 suffix="+"
@@ -625,6 +625,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
 
      {/* Interactive Branches Map – visible on lg+ screens */}
       <section className="py-20 bg-gray-50 dark:bg-slate-800 hidden lg:block">
