@@ -31,6 +31,7 @@ import CoverModal from "./components/CoverModal";
 import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
 import Footer from "./components/Footer";
+import SpecialAlert from "./components/SpecialAlert";
 
 const heroImages = [
   "/images/carausel/hero-bg0.jpg",
@@ -252,6 +253,7 @@ export default function Home() {
 
   return (
     <main>
+      <SpecialAlert />
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
