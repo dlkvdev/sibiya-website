@@ -326,18 +326,25 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Legacy Section */}
-      <section ref={ref} className="py-20 bg-white dark:bg-slate-900">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-16">
+      {/* Legacy of Compassion Section */}
+      <section className="py-20 bg-white dark:bg-slate-900">
+        <div className="max-w-7xl mx-auto px-6">
+          <motion.h2
+            className="text-4xl font-bold text-gray-900 dark:text-gray-100 text-center mb-16"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
             {t("legacyTitle")}
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+          </motion.h2>
+
+          <div ref={ref} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
+            {/* Branches */}
             <motion.div
-              className="bg-blue-100 dark:bg-blue-950/30 p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all"
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
+              initial={{ opacity: 0, y: 30 }}
+              animate={inView ? { opacity: 1, y: 0 } : {}}
+              transition={{ delay: 0.1, duration: 0.6 }}
+              className="bg-blue-50 dark:bg-slate-800 p-8 rounded-2xl shadow-xl border border-blue-100 dark:border-slate-700 text-center transform hover:scale-105 transition-transform duration-300"
             >
               <MapPin className="w-16 h-16 text-blue-900 dark:text-blue-300 mx-auto mb-6" />
               <CountUp
@@ -347,49 +354,55 @@ export default function Home() {
                 suffix="+"
                 className="text-5xl font-bold text-blue-900 dark:text-blue-300 block mb-2"
               />
-              <p className="text-gray-700 dark:text-gray-300 text-lg">{t("branches")}</p>
+              <p className="text-gray-700 dark:text-gray-300 font-medium">{t("branches")}</p>
             </motion.div>
+
+            {/* Years */}
             <motion.div
-              className="bg-blue-100 dark:bg-blue-950/30 p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all"
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
+              initial={{ opacity: 0, y: 30 }}
+              animate={inView ? { opacity: 1, y: 0 } : {}}
+              transition={{ delay: 0.2, duration: 0.6 }}
+              className="bg-blue-50 dark:bg-slate-800 p-8 rounded-2xl shadow-xl border border-blue-100 dark:border-slate-700 text-center transform hover:scale-105 transition-transform duration-300"
             >
-              <Trophy className="w-16 h-16 text-blue-900 dark:text-blue-300 mx-auto mb-6" />
+              <Trophy className="w-16 h-16 text-yellow-400 mx-auto mb-6" />
               <CountUp
                 start={startCounting ? 0 : undefined}
                 end={18}
                 duration={2.5}
                 className="text-5xl font-bold text-blue-900 dark:text-blue-300 block mb-2"
               />
-              <p className="text-gray-700 dark:text-gray-300 text-lg">{t("years")}</p>
+              <p className="text-gray-700 dark:text-gray-300 font-medium">{t("years")}</p>
             </motion.div>
+
+            {/* Families Served */}
             <motion.div
-              className="bg-blue-100 dark:bg-blue-950/30 p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all"
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.4 }}
+              initial={{ opacity: 0, y: 30 }}
+              animate={inView ? { opacity: 1, y: 0 } : {}}
+              transition={{ delay: 0.3, duration: 0.6 }}
+              className="bg-blue-50 dark:bg-slate-800 p-8 rounded-2xl shadow-xl border border-blue-100 dark:border-slate-700 text-center transform hover:scale-105 transition-transform duration-300"
             >
-              <HeartHandshake className="w-16 h-16 text-blue-900 dark:text-blue-300 mx-auto mb-6" />
+              <HeartHandshake className="w-16 h-16 text-green-600 dark:text-green-300 mx-auto mb-6" />
               <CountUp
                 start={startCounting ? 0 : undefined}
-                end={100000}
+                end={50000}
                 duration={2.5}
                 separator=","
                 suffix="+"
                 className="text-5xl font-bold text-blue-900 dark:text-blue-300 block mb-2"
               />
-              <p className="text-gray-700 dark:text-gray-300 text-lg">{t("families")}</p>
+              <p className="text-gray-700 dark:text-gray-300 font-medium">{t("families")}</p>
             </motion.div>
+
+            {/* Support */}
             <motion.div
-              className="bg-blue-100 dark:bg-blue-950/30 p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all"
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.6 }}
+              initial={{ opacity: 0, y: 30 }}
+              animate={inView ? { opacity: 1, y: 0 } : {}}
+              transition={{ delay: 0.4, duration: 0.6 }}
+              className="bg-blue-50 dark:bg-slate-800 p-8 rounded-2xl shadow-xl border border-blue-100 dark:border-slate-700 text-center transform hover:scale-105 transition-transform duration-300"
             >
-              <Calendar className="w-16 h-16 text-blue-900 dark:text-blue-300 mx-auto mb-6" />
-              <p className="text-5xl font-bold text-blue-900 dark:text-blue-300 mb-2">24/7</p>
-              <p className="text-gray-700 dark:text-gray-300 text-lg">{t("support")}</p>
+              <Calendar className="w-16 h-16 text-red-600 dark:text-red-300 mx-auto mb-6" />
+              <p className="text-5xl font-bold text-blue-900 dark:text-blue-300 block mb-2">24/7</p>
+              <p className="text-gray-700 dark:text-gray-300 font-medium">{t("support")}</p>
             </motion.div>
           </div>
         </div>
