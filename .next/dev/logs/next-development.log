@@ -1,17 +1,5 @@
-[00:00:55.266] Server  LOG     ✓ Ready in 38.8s
-[00:00:58.647] Server  LOG     ○ Compiling / ...
-[00:01:36.084] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:38.679] Browser LOG     Applying theme: light
-[00:01:59.928] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:00.231] Browser LOG     Applying theme: light
-[00:02:57.945] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:58.298] Browser LOG     Applying theme: light
-[00:03:41.199] Server  LOG     ✓ Compiled in 120ms
-[00:03:45.095] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:45.423] Browser LOG     Applying theme: light
-[00:04:35.355] Server  LOG     ✓ Compiled in 786ms
-[00:05:01.695] Server  LOG     ✓ Compiled in 75ms
-[00:05:11.927] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:12.257] Browser LOG     Applying theme: light
-[00:05:20.915] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:21.150] Browser LOG     Applying theme: light
+[00:00:47.537] Server  LOG     ✓ Ready in 33.7s
+[00:01:15.600] Server  LOG     ○ Compiling / ...
+[00:01:59.774] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:00.034] Browser LOG     Applying theme: dark
+[00:02:43.156] Server  LOG     ✓ Compiled in 110ms

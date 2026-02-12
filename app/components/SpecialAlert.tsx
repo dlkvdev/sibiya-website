@@ -10,7 +10,7 @@ export default function SpecialAlert() {
 
   // Show on every page refresh (testing mode)
   useEffect(() => {
-    const timer = setTimeout(() => setIsVisible(true), 1500); // 1.5s delay for natural feel
+    const timer = setTimeout(() => setIsVisible(true), 1500);
     return () => clearTimeout(timer);
   }, []);
 
@@ -36,7 +36,7 @@ export default function SpecialAlert() {
           transition={{ duration: 0.4 }}
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm"
         >
-          {/* Popup container with scale + fade animation */}
+          {/* Popup container */}
           <motion.div
             initial={{ scale: 0.7, opacity: 0, y: 50 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
@@ -44,18 +44,18 @@ export default function SpecialAlert() {
             transition={{ type: "spring", stiffness: 300, damping: 25 }}
             className="relative bg-white dark:bg-gray-900 rounded-2xl shadow-2xl max-w-lg w-full mx-4 overflow-hidden"
           >
-            {/* Close button */}
+            {/* Close button - red background circle */}
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleClose}
-              className="absolute top-4 right-4 text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 z-10"
+              className="absolute top-4 right-4 z-10 flex items-center justify-center w-10 h-10 rounded-full bg-red-600 hover:bg-red-700 text-white shadow-md transition-colors focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
               aria-label="Close alert"
             >
-              <X size={28} />
+              <X size={24} />
             </motion.button>
 
-            {/* Image - subtle entrance animation */}
+            {/* Image */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
