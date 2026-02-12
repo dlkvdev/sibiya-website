@@ -967,18 +967,46 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 function SpecialAlert() {
     const [isVisible, setIsVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
-    // Show on every page refresh (testing mode)
+    const [touchStartY, setTouchStartY] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [translateY, setTranslateY] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
+    const [isThrowing, setIsThrowing] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const popupRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    // Show on every refresh (testing)
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        const timer = setTimeout(()=>setIsVisible(true), 1500);
+        const timer = setTimeout(()=>setIsVisible(true), 1200);
         return ()=>clearTimeout(timer);
     }, []);
-    const handleClose = ()=>{
-        setIsVisible(false);
+    const handleClose = (withThrow = true)=>{
+        if (withThrow) {
+            setIsThrowing(true);
+            setTimeout(()=>setIsVisible(false), 600); // match animation duration
+        } else {
+            setIsVisible(false);
+        }
+        setTranslateY(0);
     };
     const handleInterested = ()=>{
         const message = encodeURIComponent("Hi Sibiya Funeral Services! I'm interested in the 'NO WAITING PERIOD SPECIAL' offer.");
         window.open(`https://wa.me/27727001800?text=${message}`, "_blank");
-        handleClose();
+        handleClose(true);
+    };
+    // Swipe handling
+    const handleTouchStart = (e)=>{
+        setTouchStartY(e.touches[0].clientY);
+    };
+    const handleTouchMove = (e)=>{
+        if (touchStartY === null) return;
+        const deltaY = e.touches[0].clientY - touchStartY;
+        if (deltaY > 0) setTranslateY(deltaY);
+    };
+    const handleTouchEnd = ()=>{
+        if (touchStartY === null) return;
+        if (translateY > 120) {
+            handleClose(true); // trigger throw animation
+        } else {
+            setTranslateY(0); // snap back
+        }
+        setTouchStartY(null);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
         children: isVisible && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -992,80 +1020,108 @@ function SpecialAlert() {
                 opacity: 0
             },
             transition: {
-                duration: 0.4
+                duration: 0.5
             },
             className: "fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                ref: popupRef,
                 initial: {
-                    scale: 0.7,
+                    scale: 0.65,
                     opacity: 0,
-                    y: 50
+                    y: 80,
+                    rotateX: 15
                 },
                 animate: {
                     scale: 1,
                     opacity: 1,
-                    y: 0
+                    y: 0,
+                    rotateX: 0
                 },
-                exit: {
-                    scale: 0.7,
+                exit: isThrowing ? {
+                    scale: 0.4,
                     opacity: 0,
-                    y: 50
+                    y: [
+                        0,
+                        -150,
+                        800
+                    ],
+                    rotate: [
+                        0,
+                        -15,
+                        45
+                    ],
+                    transition: {
+                        duration: 0.6,
+                        ease: "easeIn"
+                    }
+                } : {
+                    scale: 0.65,
+                    opacity: 0,
+                    y: 80
                 },
                 transition: {
                     type: "spring",
-                    stiffness: 300,
-                    damping: 25
+                    stiffness: 280,
+                    damping: 20,
+                    duration: isThrowing ? 0.6 : 0.5
                 },
-                className: "relative bg-white dark:bg-gray-900 rounded-2xl shadow-2xl max-w-lg w-full mx-4 overflow-hidden",
+                style: {
+                    transform: `translateY(${translateY}px)`
+                },
+                onTouchStart: handleTouchStart,
+                onTouchMove: handleTouchMove,
+                onTouchEnd: handleTouchEnd,
+                className: "relative bg-white dark:bg-gray-900 rounded-2xl shadow-2xl max-w-lg w-full mx-4 overflow-hidden touch-pan-y",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
                         whileHover: {
-                            scale: 1.1
+                            scale: 1.15,
+                            rotate: 90
                         },
                         whileTap: {
-                            scale: 0.95
+                            scale: 0.9
                         },
-                        onClick: handleClose,
+                        onClick: ()=>handleClose(true),
                         className: "absolute top-4 right-4 z-10 flex items-center justify-center w-10 h-10 rounded-full bg-red-600 hover:bg-red-700 text-white shadow-md transition-colors focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2",
                         "aria-label": "Close alert",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
                             size: 24
                         }, void 0, false, {
                             fileName: "[project]/app/components/SpecialAlert.tsx",
-                            lineNumber: 55,
+                            lineNumber: 105,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/components/SpecialAlert.tsx",
-                        lineNumber: 48,
+                        lineNumber: 98,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                         initial: {
                             opacity: 0,
-                            y: 20
+                            scale: 0.95
                         },
                         animate: {
                             opacity: 1,
-                            y: 0
+                            scale: 1
                         },
                         transition: {
-                            delay: 0.2,
-                            duration: 0.6
+                            delay: 0.15,
+                            duration: 0.7
                         },
                         className: "w-full h-64 relative",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                             src: "/images/specials/special.jpg",
-                            alt: "No Waiting Period Special - Sibiya Funeral Services",
+                            alt: "No Waiting Period Special",
                             className: "w-full h-full object-cover"
                         }, void 0, false, {
                             fileName: "[project]/app/components/SpecialAlert.tsx",
-                            lineNumber: 65,
+                            lineNumber: 115,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/components/SpecialAlert.tsx",
-                        lineNumber: 59,
+                        lineNumber: 109,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1074,7 +1130,7 @@ function SpecialAlert() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
                                 initial: {
                                     opacity: 0,
-                                    y: 20
+                                    y: 30
                                 },
                                 animate: {
                                     opacity: 1,
@@ -1088,42 +1144,44 @@ function SpecialAlert() {
                                 children: "NO WAITING PERIOD SPECIAL"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/SpecialAlert.tsx",
-                                lineNumber: 74,
+                                lineNumber: 124,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
                                 initial: {
                                     opacity: 0,
-                                    y: 20
+                                    y: 30
                                 },
                                 animate: {
                                     opacity: 1,
                                     y: 0
                                 },
                                 transition: {
-                                    delay: 0.4,
+                                    delay: 0.45,
                                     duration: 0.5
                                 },
                                 className: "text-lg text-gray-700 dark:text-gray-300 mb-6",
                                 children: "From the 2nd of March 2026 till the 6th of April 2026"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/SpecialAlert.tsx",
-                                lineNumber: 83,
+                                lineNumber: 133,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
                                 whileHover: {
-                                    scale: 1.05
+                                    scale: 1.08,
+                                    y: -4
                                 },
                                 whileTap: {
-                                    scale: 0.98
+                                    scale: 0.96,
+                                    y: 2
                                 },
                                 onClick: handleInterested,
                                 className: "bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-xl shadow-lg transition-all text-lg",
                                 children: "I'm Interested"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/SpecialAlert.tsx",
-                                lineNumber: 92,
+                                lineNumber: 142,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1134,36 +1192,36 @@ function SpecialAlert() {
                                     opacity: 1
                                 },
                                 transition: {
-                                    delay: 0.6,
+                                    delay: 0.7,
                                     duration: 0.5
                                 },
                                 className: "mt-4 text-sm text-gray-500 dark:text-gray-400",
                                 children: "Contact us today: 072 700 1800"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/SpecialAlert.tsx",
-                                lineNumber: 101,
+                                lineNumber: 151,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/SpecialAlert.tsx",
-                        lineNumber: 73,
+                        lineNumber: 123,
                         columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/SpecialAlert.tsx",
-                lineNumber: 40,
+                lineNumber: 70,
                 columnNumber: 11
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/components/SpecialAlert.tsx",
-            lineNumber: 32,
+            lineNumber: 63,
             columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/SpecialAlert.tsx",
-        lineNumber: 30,
+        lineNumber: 61,
         columnNumber: 5
     }, this);
 }
