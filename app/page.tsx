@@ -24,6 +24,10 @@ import {
   Flame,
   Archive,
   Heart,
+  Cuboid,
+  Cross,
+  Warehouse,
+  Armchair,
 } from "lucide-react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import QuoteModal from "./components/QuoteModal";
@@ -148,11 +152,11 @@ const covers = [
     price: "R320",
     image: "/images/products/coffin1.jpg",
     benefits: [
-      { item: "Coffin", icon: <ArrowDownCircle size={20} /> },
+      { item: "Coffin", icon: <Cuboid size={20} /> },
       { item: "Hearse", icon: <Car size={20} /> },
-      { item: "Cross", icon: <Crosshair size={20} /> },
-      { item: "2 Pole Tents", icon: <Tent size={20} /> },
-      { item: "Table & Chairs", icon: <Mail size={20} /> },
+      { item: "Cross", icon: <Cross size={20} /> },
+      { item: "2 Pole Tents", icon: <Warehouse size={20} /> },
+      { item: "Table & Chairs", icon: <Armchair size={20} /> },
       { item: "Fresh Flowers", icon: <Flower size={20} /> },
     ],
   },
@@ -164,12 +168,12 @@ const covers = [
     price: "R390",
     image: "/images/products/casket2.jpeg",
     benefits: [
-      { item: "Casket", icon: <ArrowDownCircle size={20} /> },
+      { item: "Casket", icon: <Cuboid size={20} /> },
       { item: "Hearse", icon: <Car size={20} /> },
       { item: "Family Car", icon: <Car size={20} /> },
-      { item: "Cross", icon: <Crosshair size={20} /> },
-      { item: "2 Pole Tents", icon: <Tent size={20} /> },
-      { item: "Table & Chairs", icon: <Mail size={20} /> },
+      { item: "Cross", icon: <Cross size={20} /> },
+      { item: "2 Pole Tents", icon: <Warehouse size={20} /> },
+      { item: "Table & Chairs", icon: <Armchair size={20} /> },
       { item: "Lowering Device", icon: <ArrowDownCircle size={20} /> },
       { item: "Fresh Flowers", icon: <Flower size={20} /> },
       { item: "Bus", icon: <Bus size={20} /> },
@@ -186,9 +190,9 @@ const covers = [
       { item: "Uhlaka", icon: <ArrowDownCircle size={20} /> },
       { item: "Hearse", icon: <Car size={20} /> },
       { item: "Family Car", icon: <Car size={20} /> },
-      { item: "Cross", icon: <Crosshair size={20} /> },
-      { item: "2 Pole Tents", icon: <Tent size={20} /> },
-      { item: "Table & Chairs", icon: <Mail size={20} /> },
+      { item: "Cross", icon: <Cross size={20} /> },
+      { item: "2 Pole Tents", icon: <Warehouse size={20} /> },
+      { item: "Table & Chairs", icon: <Armchair size={20} /> },
       { item: "Lowering Device", icon: <ArrowDownCircle size={20} /> },
       { item: "Fresh Flowers", icon: <Flower size={20} /> },
       { item: "Bus", icon: <Bus size={20} /> },
@@ -336,7 +340,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             {t("legacyTitle")}
-          </motion.h2>
+          </motion.h2>.
 
           <div ref={ref} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
             {/* Branches */}

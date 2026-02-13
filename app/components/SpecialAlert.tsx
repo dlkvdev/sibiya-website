@@ -14,11 +14,24 @@ export default function SpecialAlert() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const animationFrameRef = useRef<number | null>(null);
 
-  // Show on every refresh (testing mode)
+  // Show once a day (check localStorage)
   useEffect(() => {
-    const timer = setTimeout(() => setIsVisible(true), 1500);
-    return () => clearTimeout(timer);
+    const lastShown = localStorage.getItem("specialAlertLastShown");
+    const now = Date.now();
+    const oneDayMs = 86400000; // 24 hours in ms
+
+    if (!lastShown || now - Number(lastShown) > oneDayMs) {
+      const timer = setTimeout(() => setIsVisible(true), 1500);
+      return () => clearTimeout(timer);
+    }
   }, []);
+
+  // Update localStorage timestamp when shown
+  useEffect(() => {
+    if (isVisible) {
+      localStorage.setItem("specialAlertLastShown", Date.now().toString());
+    }
+  }, [isVisible]);
 
   // Glass shatter effect on close
   const createGlassShatter = (centerX: number, centerY: number) => {
@@ -113,7 +126,7 @@ export default function SpecialAlert() {
       setIsVisible(false);
       setTranslateY(0);
       setIsShattering(false);
-    }, 800);
+    }, 800); // match shatter animation duration
   };
 
   const handleInterested = () => {
