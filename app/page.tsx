@@ -256,7 +256,7 @@ export default function Home() {
   }, [isPaused]);
 
   return (
-    <main>
+    <main className="pt-32 pb-20 bg-slate-900 text-white min-h-screen dark md:light">
       <SpecialAlert />
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">

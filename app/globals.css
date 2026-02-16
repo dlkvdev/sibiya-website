@@ -31,7 +31,7 @@ body {
 .about-page *,
 .branches-page *,
 .payments-page * {
-  background-color: #0f172a !important; /* dark slate in light mode */
+  background-color: #0f172a !important; /* dark slate-950 in light mode */
   color: #ffffff !important; /* white text in light mode */
 }
 
@@ -46,7 +46,7 @@ body {
   color: #f9fafb !important;
 }
 
-/* Cards/sections in light mode (original) */
+/* Cards/sections in light mode (original for other pages) */
 .bg-white,
 .bg-gray-50,
 .bg-blue-50,
@@ -68,14 +68,14 @@ section {
   border: 1px solid #334155 !important;
 }
 
-/* Text contrast fixes - white in both modes for these pages */
+/* Text overrides - ensure white in dark mode everywhere needed */
 .text-gray-900,
 .text-gray-800,
 .text-gray-700,
 .text-gray-600,
 .text-gray-500,
 .text-gray-400 {
-  color: #ffffff !important; /* white text in light mode on these pages */
+  color: #111827 !important; /* dark in light mode */
 }
 
 .dark .text-gray-900,
@@ -84,7 +84,7 @@ section {
 .dark .text-gray-600,
 .dark .text-gray-500,
 .dark .text-gray-400 {
-  color: #f9fafb !important;
+  color: #f9fafb !important; /* white in dark mode */
 }
 
 /* Footer */

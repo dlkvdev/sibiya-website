@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <head>
         {/* Favicon links */}
         <link rel="icon" href="/images/favicon/favicon.png" type="image/png" />
@@ -51,11 +51,8 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`
-          ${poppins.variable}
-          font-sans antialiased min-h-screen
-        `}
-        suppressHydrationWarning
+      className={`${poppins.variable} font-sans antialiased min-h-screen bg-white text-black`}
+      suppressHydrationWarning // ← keep only here if needed
       >
         <ThemeProvider>
           <LanguageProvider>
