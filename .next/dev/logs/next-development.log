@@ -1,22 +1,192 @@
-[00:00:00.867] Server  LOG     ✓ Ready in 583ms
-[00:00:01.656] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:02.392] Browser LOG     Applying theme: light
-[00:03:00.396] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/payments/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:03:00.576] Server  LOG     ✓ Compiled in 755ms
-[00:03:01.138] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:24.352] Server  LOG     ✓ Compiled in 105ms
-[00:03:24.369] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/payments/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:03:24.370] Browser LOG     Applying theme: light
-[00:03:24.894] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:30.599] Browser LOG     Applying theme: light
-[00:03:41.501] Browser LOG     Toggle: light → dark
-[00:03:41.501] Browser LOG     Toggle: light → dark
-[00:03:41.501] Browser LOG     Applying theme: dark
-[00:03:45.166] Browser LOG     Toggle: dark → light
-[00:03:45.166] Browser LOG     Toggle: dark → light
-[00:03:45.166] Browser LOG     Applying theme: light
-[00:03:56.184] Browser LOG     Toggle: light → dark
-[00:03:56.184] Browser LOG     Toggle: light → dark
-[00:03:56.184] Browser LOG     Applying theme: dark
-[00:04:12.412] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:12.724] Browser LOG     Applying theme: dark
+[00:00:00.846] Server  LOG     ✓ Ready in 576ms
+[00:00:06.313] Server  ERROR   ⨯ ./app/branches/page.tsx:6:1
+Module not found: Can't resolve '../../components/Footer'
+  4 | import { Phone, MapPin, ExternalLink } from "lucide-react";
+  5 | import { useLanguage } from "@/context/LanguageContext";
+> 6 | import Footer from "../../components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Branch {
+  9 |   name: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/branches/page.tsx [Client Component Browser]
+    ./app/branches/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/branches/page.tsx [Client Component SSR]
+    ./app/branches/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:06.706] Browser ERROR   uncaughtError: Error: ./app/branches/page.tsx:6:1
+Module not found: Can't resolve '../../components/Footer'
+  4 | import { Phone, MapPin, ExternalLink } from "lucide-react";
+  5 | import { useLanguage } from "@/context/LanguageContext";
+> 6 | import Footer from "../../components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Branch {
+  9 |   name: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/branches/page.tsx [Client Component Browser]
+    ./app/branches/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/branches/page.tsx [Client Component SSR]
+    ./app/branches/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.567] Browser ERROR   ./app/branches/page.tsx:6:1
+Module not found: Can't resolve '../../components/Footer'
+  4 | import { Phone, MapPin, ExternalLink } from "lucide-react";
+  5 | import { useLanguage } from "@/context/LanguageContext";
+> 6 | import Footer from "../../components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Branch {
+  9 |   name: string;
+
+Import traces:
+  Client Component Browser:
+    ./app/branches/page.tsx [Client Component Browser]
+    ./app/branches/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/branches/page.tsx [Client Component SSR]
+    ./app/branches/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:07.567] Browser ERROR   ./app/branches/page.tsx:6:1
+Module not found: Can't resolve '../../components/Footer'
+  4 | import { Phone, MapPin, ExternalLink } from "lucide-react";
+  5 | import { useLanguage } from "@/context/LanguageContext";
+> 6 | import Footer from "../../components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Branch {
+  9 |   name: string;
+
+Import traces:
+  Client Component Browser:
+    ./app/branches/page.tsx [Client Component Browser]
+    ./app/branches/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/branches/page.tsx [Client Component SSR]
+    ./app/branches/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:13.631] Server  ERROR   ⨯ ./app/branches/page.tsx:6:1
+Module not found: Can't resolve '../../components/Footer'
+  4 | import { Phone, MapPin, ExternalLink } from "lucide-react";
+  5 | import { useLanguage } from "@/context/LanguageContext";
+> 6 | import Footer from "../../components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Branch {
+  9 |   name: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/branches/page.tsx [Client Component Browser]
+    ./app/branches/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/branches/page.tsx [Client Component SSR]
+    ./app/branches/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:13.786] Browser ERROR   uncaughtError: Error: ./app/branches/page.tsx:6:1
+Module not found: Can't resolve '../../components/Footer'
+  4 | import { Phone, MapPin, ExternalLink } from "lucide-react";
+  5 | import { useLanguage } from "@/context/LanguageContext";
+> 6 | import Footer from "../../components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Branch {
+  9 |   name: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/branches/page.tsx [Client Component Browser]
+    ./app/branches/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/branches/page.tsx [Client Component SSR]
+    ./app/branches/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:13.930] Browser ERROR   ./app/branches/page.tsx:6:1
+Module not found: Can't resolve '../../components/Footer'
+  4 | import { Phone, MapPin, ExternalLink } from "lucide-react";
+  5 | import { useLanguage } from "@/context/LanguageContext";
+> 6 | import Footer from "../../components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Branch {
+  9 |   name: string;
+
+Import traces:
+  Client Component Browser:
+    ./app/branches/page.tsx [Client Component Browser]
+    ./app/branches/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/branches/page.tsx [Client Component SSR]
+    ./app/branches/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:13.930] Browser ERROR   ./app/branches/page.tsx:6:1
+Module not found: Can't resolve '../../components/Footer'
+  4 | import { Phone, MapPin, ExternalLink } from "lucide-react";
+  5 | import { useLanguage } from "@/context/LanguageContext";
+> 6 | import Footer from "../../components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Branch {
+  9 |   name: string;
+
+Import traces:
+  Client Component Browser:
+    ./app/branches/page.tsx [Client Component Browser]
+    ./app/branches/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/branches/page.tsx [Client Component SSR]
+    ./app/branches/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.827] Server  LOG     ✓ Compiled in 127ms
+[00:00:22.413] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:23.565] Browser ERROR   uncaughtError: ReferenceError: Footer is not defined
+[00:00:30.646] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:30.654] Server  LOG     ✓ Compiled in 112ms
+[00:00:30.995] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:31.567] Browser LOG     Applying theme: dark
+[00:01:24.537] Server  LOG     ✓ Compiled in 73ms
+[00:02:07.895] Server  LOG     ✓ Compiled in 124ms
+[00:03:12.625] Browser LOG     Toggle: dark → light
+[00:03:12.625] Browser LOG     Toggle: dark → light
+[00:03:12.625] Browser LOG     Applying theme: light
+[00:03:13.592] Browser LOG     Toggle: light → dark
+[00:03:13.592] Browser LOG     Toggle: light → dark
+[00:03:13.593] Browser LOG     Applying theme: dark

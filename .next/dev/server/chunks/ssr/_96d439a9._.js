@@ -18,55 +18,164 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$context$2f$LanguageContext$2
 ;
 ;
 const branches = [
+    // ───────────────────────────────────────────────
+    // All branches (original + newly added from map)
+    // ───────────────────────────────────────────────
     {
-        name: "Pietermaritzburg – Boom Street",
+        name: "Pietermaritzburg (Head Office) – Boom Street",
         address: "433 Boom Street, Pietermaritzburg",
-        phone: "081 237 1921"
+        phone: "081 237 1921",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=433+Boom+Street,+Pietermaritzburg,+KwaZulu-Natal,+South+Africa&travelmode=driving"
     },
     {
         name: "Pietermaritzburg – Langalibalele Shop No 1",
         address: "412 Langalibalele Street, Pietermaritzburg",
-        phone: "081 330 6840"
+        phone: "081 330 6840",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=412+Langalibalele+Street,+Pietermaritzburg,+KwaZulu-Natal,+South+Africa&travelmode=driving"
     },
     {
         name: "Pietermaritzburg – Langalibalele Shop No 2",
         address: "Shop No 2 Selgro 412 Langalibalele Street, Pietermaritzburg",
-        phone: "033 940 3871"
+        phone: "033 940 3871",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=Shop+No+2+Selgro+412+Langalibalele+Street,+Pietermaritzburg,+KwaZulu-Natal,+South+Africa&travelmode=driving"
     },
     {
         name: "Howick",
-        address: "Main Street, Howick",
-        phone: "033 330 1234"
+        address: "27 Somi Street, Howick",
+        phone: "Not listed – call 072 700 1800",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=27+Somi+Street,+Howick,+KwaZulu-Natal,+South+Africa&travelmode=driving"
     },
     {
         name: "Estcourt",
         address: "Victoria Street, Estcourt",
-        phone: "036 352 5678"
+        phone: "036 352 5678",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=Victoria+Street,+Estcourt,+KwaZulu-Natal,+South+Africa&travelmode=driving"
     },
     {
         name: "Mooi River",
         address: "Main Road, Mooi River",
-        phone: "033 263 9012"
+        phone: "033 263 9012",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=Main+Road,+Mooi+River,+KwaZulu-Natal,+South+Africa&travelmode=driving"
     },
     {
         name: "Hammarsdale",
         address: "Old Main Road, Hammarsdale",
-        phone: "031 736 3456"
+        phone: "031 736 3456",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=Old+Main+Road,+Hammarsdale,+KwaZulu-Natal,+South+Africa&travelmode=driving"
     },
     {
-        name: "Durban – Pinetown",
+        name: "Pinetown",
         address: "Old Main Road, Pinetown",
-        phone: "031 701 7890"
+        phone: "031 701 7890",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=Old+Main+Road,+Pinetown,+Durban,+KwaZulu-Natal,+South+Africa&travelmode=driving"
     },
     {
-        name: "Durban – Empangeni",
+        name: "Empangeni",
         address: "King Cetshwayo Highway, Empangeni",
-        phone: "035 772 2345"
+        phone: "035 772 2345",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=King+Cetshwayo+Highway,+Empangeni,+KwaZulu-Natal,+South+Africa&travelmode=driving"
     },
     {
         name: "Johannesburg – 6th Street",
         address: "6th Street, Johannesburg",
-        phone: "011 492 5678"
+        phone: "011 492 5678",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=6th+Street,+Johannesburg,+Gauteng,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Johannesburg – New Redruth, Alberton",
+        address: "10 Helston Street, New Redruth, Alberton",
+        phone: "072 700 1800",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=10+Helston+Street,+New+Redruth,+Alberton,+Gauteng,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Newcastle",
+        address: "2 Ayliff Street, Newcastle",
+        phone: "072 700 1800",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=2+Ayliff+Street,+Newcastle,+KwaZulu-Natal,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Port Shepstone",
+        address: "4 Court House Road, Port Shepstone",
+        phone: "063 292 7628",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=4+Court+House+Road,+Port+Shepstone,+KwaZulu-Natal,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Empangeni – Clan Angus",
+        address: "Shop 4 Clan Angus, 4th and 6th Street, Empangeni",
+        phone: "035 787 0106",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=Shop+4+Clan+Angus,+4th+and+6th+Street,+Empangeni,+KwaZulu-Natal,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Greytown",
+        address: "Bell Street Ext / Office no 1 & 2, 102 Bell Street, Greytown",
+        phone: "081 586 9800",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=102+Bell+Street,+Greytown,+KwaZulu-Natal,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Wartburg",
+        address: "No 7 Mill Road, Wartburg",
+        phone: "081 263 2610",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=No+7+Mill+Road,+Wartburg,+KwaZulu-Natal,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Bulwer",
+        address: "Jackson St, Office No 3, Stavcom Centre, Bulwer",
+        phone: "072 700 1800",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=Stavcom+Centre,+Jackson+Street,+Bulwer,+KwaZulu-Natal,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Ladysmith",
+        address: "26 King St, Ladysmith",
+        phone: "072 700 1800",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=26+King+Street,+Ladysmith,+KwaZulu-Natal,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Bhamshela",
+        address: "614 No 16 Noodsburg Road, Bhamshela",
+        phone: "072 700 1800",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=614+No+16+Noodsburg+Road,+Bhamshela,+KwaZulu-Natal,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Dalton",
+        address: "Shop No 2, Market Centre, 4 Noordsberg Road, Dalton",
+        phone: "072 700 1800",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=Market+Centre,+4+Noordsberg+Road,+Dalton,+KwaZulu-Natal,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Durban – Umngeni",
+        address: "74 Umngeni Road, Durban",
+        phone: "031 942 5771",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=74+Umngeni+Road,+Durban,+KwaZulu-Natal,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Durban – Anton Lembede",
+        address: "407 Anton Lembede Rd, Salmon Grove Chamber, Durban",
+        phone: "031 940 0847",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=407+Anton+Lembede+Road,+Durban,+KwaZulu-Natal,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Pinetown – Crompton Rd",
+        address: "79 Crompton Rd, Pinetown",
+        phone: "031 094 9414",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=79+Crompton+Road,+Pinetown,+KwaZulu-Natal,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Webber",
+        address: "Shop no 18-19, Webber Shopping Centre",
+        phone: "072 700 1800",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=Webber+Shopping+Centre,+KwaZulu-Natal,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Richmond",
+        address: "Chilly Street, Richmond",
+        phone: "072 700 1800",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=Chilly+Street,+Richmond,+KwaZulu-Natal,+South+Africa&travelmode=driving"
+    },
+    {
+        name: "Impendle – Ikhwezi Street",
+        address: "162 Ikhwezi Street, Impendle",
+        phone: "072 700 1800",
+        mapsLink: "https://www.google.com/maps/dir/?api=1&destination=162+Ikhwezi+Street,+Impendle,+KwaZulu-Natal,+South+Africa&travelmode=driving"
     }
 ];
 function Branches() {
@@ -92,7 +201,7 @@ function Branches() {
                     children: t("branches")
                 }, void 0, false, {
                     fileName: "[project]/app/branches/page.tsx",
-                    lineNumber: 66,
+                    lineNumber: 209,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -107,8 +216,8 @@ function Branches() {
                                 y: 0
                             },
                             transition: {
-                                delay: index * 0.1,
-                                duration: 0.6
+                                delay: index * 0.05,
+                                duration: 0.5
                             },
                             className: "bg-slate-800 p-6 rounded-xl shadow-lg border-2 border-green-500 hover:shadow-2xl transition-all duration-300",
                             children: [
@@ -117,7 +226,7 @@ function Branches() {
                                     children: branch.name
                                 }, void 0, false, {
                                     fileName: "[project]/app/branches/page.tsx",
-                                    lineNumber: 84,
+                                    lineNumber: 227,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -128,14 +237,14 @@ function Branches() {
                                             className: "text-green-400"
                                         }, void 0, false, {
                                             fileName: "[project]/app/branches/page.tsx",
-                                            lineNumber: 88,
+                                            lineNumber: 229,
                                             columnNumber: 17
                                         }, this),
                                         branch.address
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/branches/page.tsx",
-                                    lineNumber: 87,
+                                    lineNumber: 228,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -146,14 +255,14 @@ function Branches() {
                                             className: "text-green-400"
                                         }, void 0, false, {
                                             fileName: "[project]/app/branches/page.tsx",
-                                            lineNumber: 92,
+                                            lineNumber: 233,
                                             columnNumber: 17
                                         }, this),
                                         branch.phone
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/branches/page.tsx",
-                                    lineNumber: 91,
+                                    lineNumber: 232,
                                     columnNumber: 15
                                 }, this),
                                 branch.mapsLink && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -167,35 +276,35 @@ function Branches() {
                                             size: 16
                                         }, void 0, false, {
                                             fileName: "[project]/app/branches/page.tsx",
-                                            lineNumber: 103,
+                                            lineNumber: 244,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/branches/page.tsx",
-                                    lineNumber: 96,
+                                    lineNumber: 237,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "[project]/app/branches/page.tsx",
-                            lineNumber: 77,
+                            lineNumber: 220,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/app/branches/page.tsx",
-                    lineNumber: 75,
+                    lineNumber: 218,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "text-center mt-16",
+                    className: "text-center mt-16 mb-20",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-lg mb-6 opacity-90",
                             children: "Can't find your area? Call our 24/7 emergency line for assistance."
                         }, void 0, false, {
                             fileName: "[project]/app/branches/page.tsx",
-                            lineNumber: 111,
+                            lineNumber: 252,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -206,31 +315,31 @@ function Branches() {
                                     size: 24
                                 }, void 0, false, {
                                     fileName: "[project]/app/branches/page.tsx",
-                                    lineNumber: 118,
+                                    lineNumber: 259,
                                     columnNumber: 13
                                 }, this),
                                 "Call 072 700 1800 Now"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/branches/page.tsx",
-                            lineNumber: 114,
+                            lineNumber: 255,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/branches/page.tsx",
-                    lineNumber: 110,
+                    lineNumber: 251,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/branches/page.tsx",
-            lineNumber: 65,
+            lineNumber: 208,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/branches/page.tsx",
-        lineNumber: 64,
+        lineNumber: 207,
         columnNumber: 5
     }, this);
 }
