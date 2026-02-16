@@ -15,7 +15,7 @@ html, body {
 /* Light mode (original) */
 body {
   background: linear-gradient(to bottom, #f9fafb, #ffffff);
-  color: #111827; /* gray-900 */
+  color: #111827; /* gray-900 / black text */
 }
 
 /* Dark mode body */
@@ -46,31 +46,41 @@ section {
   border: 1px solid #334155 !important; /* subtle slate-700 border */
 }
 
-/* Text contrast fixes - only where needed */
-.text-gray-900 { color: #111827; }
-.dark .text-gray-900 { color: #f9fafb; }
+/* NUCLEAR OVERRIDE: Force ALL gray text to black in light mode */
+.text-gray-900,
+.text-gray-800,
+.text-gray-700,
+.text-gray-600,
+.text-gray-500,
+.text-gray-400,
+.text-gray-300 {
+  color: #000000 !important; /* solid black in light mode */
+}
 
-.text-gray-700 { color: #374151; }
-.dark .text-gray-700 { color: #d1d5db; }
+/* Dark mode keeps light text */
+.dark .text-gray-900,
+.dark .text-gray-800,
+.dark .text-gray-700,
+.dark .text-gray-600,
+.dark .text-gray-500,
+.dark .text-gray-400,
+.dark .text-gray-300 {
+  color: #f9fafb !important;
+}
 
-.text-gray-600 { color: #4b5563; }
-.dark .text-gray-600 { color: #9ca3af; }
+/* Specific overrides for Founder Recognition & Our Growth cards (dark mode white text) */
+.dark .founder-recognition h3,
+.dark .founder-recognition p,
+.dark .founder-recognition blockquote,
+.dark .our-growth .card h3,
+.dark .our-growth .card p,
+.dark .our-growth .card span {
+  color: #ffffff !important; /* pure white in dark mode */
+}
 
-.text-gray-500 { color: #6b7280; }
-.dark .text-gray-500 { color: #9ca3af; }
-
-.text-blue-900 { color: #1e3a8a; }
-.dark .text-blue-900 { color: #bfdbfe; }
-
-.text-green-600 { color: #16a34a; }
-.dark .text-green-600 { color: #86efac; }
-
-.text-yellow-400 { color: #facc15; }
-.dark .text-yellow-400 { color: #fde047; } /* keep yellow stars in dark */
-
-/* Footer - light: original, dark: black */
+/* Footer - light: original white/gray, dark: black */
 footer {
-  background-color: #ffffff; /* original light footer */
+  background-color: #ffffff;
   color: #111827;
 }
 
@@ -88,11 +98,11 @@ header.scrolled {
   background-color: #000000 !important;
 }
 
-/* Mobile drawer text - keep original colors (no forced gold/yellow) */
-.text-yellow-300 { color: #fde047; } /* if you still have it somewhere */
+/* Mobile drawer text - keep original colors */
+.text-yellow-300 { color: #fde047; }
 .dark .text-yellow-300 { color: #f3f4f6; } /* light gray in dark */
 
-/* Hover states - original */
+/* Hover states */
 a:hover,
 button:hover {
   color: #22c55e !important;
@@ -103,7 +113,38 @@ button:hover {
   color: #86efac !important;
 }
 
-/* Custom marker (HQ symbol stays as you wanted) */
+/* Social icons in light mode - white with no dark background */
+a[href*="facebook"] svg,
+a[href*="tiktok"] svg,
+a[href*="youtube"] svg {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+  background-color: transparent !important;
+}
+
+a[href*="facebook"],
+a[href*="tiktok"],
+a[href*="youtube"] {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+a[href*="facebook"]:hover svg,
+a[href*="tiktok"]:hover svg,
+a[href*="youtube"]:hover svg {
+  color: #22c55e !important;
+  fill: #22c55e !important;
+}
+
+.dark a[href*="facebook"] svg,
+.dark a[href*="tiktok"] svg,
+.dark a[href*="youtube"] svg {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+  background-color: transparent !important;
+}
+
+/* Custom marker (HQ symbol) */
 .custom-marker-head {
   background-color: #dc2626 !important;
   border: 3px solid #991b1b !important;
@@ -117,52 +158,4 @@ button:hover {
   justify-content: center !important;
   font-size: 14px !important;
   box-shadow: 0 2px 6px rgba(0,0,0,0.4) !important;
-}
-
-/* IMPORTANT: No forced white on all icons/symbols - revert to original behavior */
-svg,
-[data-lucide],
-.lucide-icon {
-  /* No !important color overrides here - let original classes handle it */
-}
-
-/* Social icons - original colors */
-a[href*="facebook"],
-a[href*="tiktok"],
-a[href*="youtube"] svg {
-  color: inherit; /* inherit from parent */
-}
-
-/* Social icons in light mode - white / light background */
-a[href*="facebook"] svg,
-a[href*="tiktok"] svg,
-a[href*="youtube"] svg {
-  color: #ffffff !important; /* white icons */
-  fill: #ffffff !important;
-  background-color: transparent !important; /* no dark bg */
-}
-
-/* Ensure no dark background on social links in light mode */
-a[href*="facebook"],
-a[href*="tiktok"],
-a[href*="youtube"] {
-  background-color: transparent !important;
-  border: none !important;
-}
-
-/* Hover state - keep green hover, but icons stay white */
-a[href*="facebook"]:hover svg,
-a[href*="tiktok"]:hover svg,
-a[href*="youtube"]:hover svg {
-  color: #22c55e !important; /* green-500 on hover */
-  fill: #22c55e !important;
-}
-
-/* In dark mode - keep icons white/light as before */
-.dark a[href*="facebook"] svg,
-.dark a[href*="tiktok"] svg,
-.dark a[href*="youtube"] svg {
-  color: #ffffff !important;
-  fill: #ffffff !important;
-  background-color: transparent !important;
 }

@@ -1225,60 +1225,16 @@ body {
   border: 1px solid #334155 !important;
 }
 
-.text-gray-900 {
-  color: #111827;
+.text-gray-900, .text-gray-800, .text-gray-700, .text-gray-600, .text-gray-500, .text-gray-400, .text-gray-300 {
+  color: #000 !important;
 }
 
-.dark .text-gray-900 {
-  color: #f9fafb;
+.dark .text-gray-900, .dark .text-gray-800, .dark .text-gray-700, .dark .text-gray-600, .dark .text-gray-500, .dark .text-gray-400, .dark .text-gray-300 {
+  color: #f9fafb !important;
 }
 
-.text-gray-700 {
-  color: #374151;
-}
-
-.dark .text-gray-700 {
-  color: #d1d5db;
-}
-
-.text-gray-600 {
-  color: #4b5563;
-}
-
-.dark .text-gray-600 {
-  color: #9ca3af;
-}
-
-.text-gray-500 {
-  color: #6b7280;
-}
-
-.dark .text-gray-500 {
-  color: #9ca3af;
-}
-
-.text-blue-900 {
-  color: #1e3a8a;
-}
-
-.dark .text-blue-900 {
-  color: #bfdbfe;
-}
-
-.text-green-600 {
-  color: #16a34a;
-}
-
-.dark .text-green-600 {
-  color: #86efac;
-}
-
-.text-yellow-400 {
-  color: #facc15;
-}
-
-.dark .text-yellow-400 {
-  color: #fde047;
+.dark .founder-recognition h3, .dark .founder-recognition p, .dark .founder-recognition blockquote, .dark .our-growth .card h3, .dark .our-growth .card p, .dark .our-growth .card span {
+  color: #fff !important;
 }
 
 footer {
@@ -1315,25 +1271,6 @@ a:hover, button:hover {
   color: #86efac !important;
 }
 
-.custom-marker-head {
-  color: #fff !important;
-  background-color: #dc2626 !important;
-  border: 3px solid #991b1b !important;
-  border-radius: 50% !important;
-  justify-content: center !important;
-  align-items: center !important;
-  width: 36px !important;
-  height: 36px !important;
-  font-size: 14px !important;
-  font-weight: bold !important;
-  display: flex !important;
-  box-shadow: 0 2px 6px #0006 !important;
-}
-
-a[href*="facebook"], a[href*="tiktok"], a[href*="youtube"] svg {
-  color: inherit;
-}
-
 a[href*="facebook"] svg, a[href*="tiktok"] svg, a[href*="youtube"] svg {
   color: #fff !important;
   fill: #fff !important;
@@ -1354,6 +1291,21 @@ a[href*="facebook"]:hover svg, a[href*="tiktok"]:hover svg, a[href*="youtube"]:h
   color: #fff !important;
   fill: #fff !important;
   background-color: #0000 !important;
+}
+
+.custom-marker-head {
+  color: #fff !important;
+  background-color: #dc2626 !important;
+  border: 3px solid #991b1b !important;
+  border-radius: 50% !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 36px !important;
+  height: 36px !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  display: flex !important;
+  box-shadow: 0 2px 6px #0006 !important;
 }
 
 .hover\:scale-105:hover {

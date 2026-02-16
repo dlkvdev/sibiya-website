@@ -1,3 +1,44 @@
-[00:00:02.143] Server  LOG     ✓ Ready in 1441ms
-[00:00:05.996] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.364] Browser LOG     Applying theme: light
+[00:00:01.219] Server  LOG     ✓ Ready in 827ms
+[00:00:02.126] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.871] Browser LOG     Applying theme: light
+[00:00:07.238] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:07.406] Browser LOG     Applying theme: light
+[00:02:02.787] Server  LOG     ✓ Compiled in 968ms
+[00:02:11.144] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:11.333] Browser LOG     Applying theme: light
+[00:03:32.884] Browser LOG     Toggle: light → dark
+[00:03:32.884] Browser LOG     Toggle: light → dark
+[00:03:32.884] Browser LOG     Applying theme: dark
+[00:03:36.086] Browser LOG     Toggle: dark → light
+[00:03:36.086] Browser LOG     Toggle: dark → light
+[00:03:36.086] Browser LOG     Applying theme: light
+[00:03:37.182] Browser LOG     Toggle: light → dark
+[00:03:37.182] Browser LOG     Toggle: light → dark
+[00:03:37.182] Browser LOG     Applying theme: dark
+[00:03:40.133] Browser LOG     Toggle: dark → light
+[00:03:40.133] Browser LOG     Toggle: dark → light
+[00:03:40.133] Browser LOG     Applying theme: light
+[00:03:44.988] Browser LOG     Toggle: light → dark
+[00:03:44.988] Browser LOG     Toggle: light → dark
+[00:03:44.988] Browser LOG     Applying theme: dark
+[00:03:45.840] Browser LOG     Toggle: dark → light
+[00:03:45.840] Browser LOG     Toggle: dark → light
+[00:03:45.840] Browser LOG     Applying theme: light
+[00:03:46.549] Browser LOG     Toggle: light → dark
+[00:03:46.549] Browser LOG     Toggle: light → dark
+[00:03:46.549] Browser LOG     Applying theme: dark
+[00:03:47.118] Browser LOG     Toggle: dark → light
+[00:03:47.119] Browser LOG     Toggle: dark → light
+[00:03:47.119] Browser LOG     Applying theme: light
+[00:04:22.476] Server  LOG     ✓ Compiled in 347ms
+[00:04:30.261] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:30.593] Browser LOG     Applying theme: light
+[00:06:10.706] Server  LOG     ✓ Compiled in 306ms
+[00:07:39.550] Server  LOG     ✓ Compiled in 317ms
+[00:07:57.949] Server  LOG     ✓ Compiled in 249ms
+[00:08:24.641] Browser LOG     Toggle: light → dark
+[00:08:24.642] Browser LOG     Toggle: light → dark
+[00:08:24.642] Browser LOG     Applying theme: dark
+[00:08:25.795] Browser LOG     Toggle: dark → light
+[00:08:25.795] Browser LOG     Toggle: dark → light
+[00:08:25.795] Browser LOG     Applying theme: light
