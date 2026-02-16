@@ -37,6 +37,7 @@ export default function Header() {
     { key: "home", href: "/" },
     { key: "aboutUs", href: "/about" },
     { key: "branches", href: "/branches" },
+    { key: "PayOnline", href: "/payments" },  // ← New tab added
   ];
 
   const t = useLanguage().t;
@@ -111,7 +112,7 @@ export default function Header() {
                 <Facebook size={24} />
               </a>
               <a
-                href="https://www.tiktok.com/@sibiyafuneralsofficial"
+                href="https://www.tiktok.com/@sibiyafuneralservicesofficial"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-green-400 transition-colors p-2"
@@ -120,7 +121,7 @@ export default function Header() {
                 <Video size={24} />
               </a>
               <a
-                href="https://www.youtube.com/@SibiyaFuneralServicesOfficial"
+                href="https://www.youtube.com/@sibiyafuneralservices"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-green-400 transition-colors p-2"
@@ -199,7 +200,7 @@ export default function Header() {
               </div>
             </div>
 
-            {/* Social Icons - Reinstated in Mobile Drawer */}
+            {/* Social Icons */}
             <div className="px-6 py-6 border-t border-blue-800">
               <h4 className="text-lg font-semibold mb-4 text-blue-50 text-center sm:text-left">
                 Connect With Us

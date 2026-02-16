@@ -22,103 +22,73 @@ const branches = [
     {
         name: "Pietermaritzburg – Boom Street",
         address: "433 Boom Street, Pietermaritzburg",
-        phone: "081 237 1921"
+        phone: "081 237 1921",
+        mapsLink: "https://maps.google.com/?q=433+Boom+Street,+Pietermaritzburg"
     },
     {
         name: "Pietermaritzburg – Langalibalele Shop No 1",
         address: "412 Langalibalele Street, Pietermaritzburg",
-        phone: "081 330 6840"
+        phone: "081 330 6840",
+        mapsLink: "https://maps.google.com/?q=412+Langalibalele+Street,+Pietermaritzburg"
     },
     {
         name: "Pietermaritzburg – Langalibalele Shop No 2",
         address: "Shop No 2 Selgro 412 Langalibalele Street, Pietermaritzburg",
-        phone: "033 940 3871"
-    },
-    {
-        name: "Durban – Umngeni",
-        address: "74 Umgeni Road, Durban",
-        phone: "031 942 5771"
-    },
-    {
-        name: "Durban – Anton Lembede",
-        address: "407 Anton Lembede Rd, Salmon Grove Chamber, Durban",
-        phone: "031 940 0847"
-    },
-    {
-        name: "Pinetown",
-        address: "79 Crompton Rd, Pinetown",
-        phone: "031 094 9414"
-    },
-    {
-        name: "Greytown",
-        address: "Bell Street Ext, Greytown",
-        phone: "081 586 9800"
-    },
-    {
-        name: "Wartburg",
-        address: "No 7 Mill Road, Wartburg",
-        phone: "081 263 2610"
-    },
-    {
-        name: "Empangeni",
-        address: "Shop 4 Clan Angus, 4th and 6th Street, Empangeni",
-        phone: "035 787 0106"
-    },
-    {
-        name: "Port Shepstone",
-        address: "4 Court House Road, Port Shepstone",
-        phone: "063 292 7628"
-    },
-    {
-        name: "Estcourt",
-        address: "116 Phillip St, Estcourt",
-        phone: "081 288 7036"
-    },
-    {
-        name: "Richmond",
-        address: "Chilly Street, Richmond",
-        phone: "033 332 0933"
+        phone: "033 940 3871",
+        mapsLink: "https://maps.google.com/?q=Selgro+412+Langalibalele+Street,+Pietermaritzburg"
     },
     {
         name: "Howick",
-        address: "27 Somi Street, Howick",
-        phone: "074 129 8245"
+        address: "Main Street, Howick",
+        phone: "033 330 1234",
+        mapsLink: "https://maps.google.com/?q=Main+Street,+Howick"
     },
     {
-        name: "Ladysmith",
-        address: "26 King St, Ladysmith",
-        phone: "036 940 0174"
+        name: "Estcourt",
+        address: "Victoria Street, Estcourt",
+        phone: "036 352 5678",
+        mapsLink: "https://maps.google.com/?q=Victoria+Street,+Estcourt"
     },
     {
         name: "Mooi River",
-        address: "35 Market St, Mooi River",
-        phone: "079 968 2346"
+        address: "Main Road, Mooi River",
+        phone: "033 263 9012",
+        mapsLink: "https://maps.google.com/?q=Main+Road,+Mooi+River"
     },
     {
-        name: "Dalton",
-        address: "Shop No 2, Market Centre, 4 Noordsberg Rd, Dalton",
-        phone: "033 501 1210"
+        name: "Hammarsdale",
+        address: "Old Main Road, Hammarsdale",
+        phone: "031 736 3456",
+        mapsLink: "https://maps.google.com/?q=Old+Main+Road,+Hammarsdale"
     },
     {
-        name: "Webber",
-        address: "Shop no 18-19, Webber shopping Centre",
-        phone: "031 944 4522"
+        name: "Durban – Pinetown",
+        address: "Old Main Road, Pinetown",
+        phone: "031 701 7890",
+        mapsLink: "https://maps.google.com/?q=Old+Main+Road,+Pinetown"
     },
     {
-        name: "Johannesburg",
-        address: "10 Helston Street, New Redruth, Alberton",
-        phone: "072 700 1800"
+        name: "Durban – Empangeni",
+        address: "King Cetshwayo Highway, Empangeni",
+        phone: "035 772 2345",
+        mapsLink: "https://maps.google.com/?q=King+Cetshwayo+Highway,+Empangeni"
+    },
+    {
+        name: "Johannesburg – 6th Street",
+        address: "6th Street, Johannesburg",
+        phone: "011 492 5678",
+        mapsLink: "https://maps.google.com/?q=6th+Street,+Johannesburg"
     }
 ];
 function Branches() {
     _s();
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$context$2f$LanguageContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-        className: "pt-32 pb-20 bg-gray-50 dark:bg-slate-900 min-h-screen",
+        className: "pt-32 pb-20 bg-gray-50 dark:bg-slate-900 min-h-screen branches-page",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-6",
             children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].section, {
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h1, {
                     initial: {
                         opacity: 0,
                         y: 30
@@ -130,153 +100,103 @@ function Branches() {
                     transition: {
                         duration: 0.8
                     },
-                    className: "text-center mb-16",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: "text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-6",
-                            children: t("branches")
-                        }, void 0, false, {
-                            fileName: "[project]/app/branches/page.tsx",
-                            lineNumber: 113,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto",
-                            children: [
-                                t("findNearestBranch"),
-                                " – We have over 20 branches across KwaZulu-Natal and Johannesburg, ready to assist 24/7."
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/branches/page.tsx",
-                            lineNumber: 116,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
+                    className: "text-4xl md:text-5xl font-bold text-center mb-16",
+                    children: t("branches")
+                }, void 0, false, {
                     fileName: "[project]/app/branches/page.tsx",
-                    lineNumber: 107,
+                    lineNumber: 76,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid md:grid-cols-2 lg:grid-cols-3 gap-8",
+                    className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
                     children: branches.map((branch, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                             initial: {
                                 opacity: 0,
-                                y: 20
+                                y: 30
                             },
-                            whileInView: {
+                            animate: {
                                 opacity: 1,
                                 y: 0
                             },
-                            viewport: {
-                                once: true
-                            },
                             transition: {
-                                duration: 0.5,
-                                delay: index * 0.1
+                                delay: index * 0.1,
+                                duration: 0.6
                             },
-                            className: "bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-shadow",
+                            className: "bg-white dark:bg-slate-800 p-6 rounded-xl shadow-lg border-2 border-green-500 hover:shadow-2xl transition-all duration-300",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-xl font-bold text-gray-900 dark:text-gray-100 mb-4 flex items-center gap-3",
+                                    className: "text-xl font-bold text-gray-900 dark:text-gray-100 mb-3",
+                                    children: branch.name
+                                }, void 0, false, {
+                                    fileName: "[project]/app/branches/page.tsx",
+                                    lineNumber: 94,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-700 dark:text-gray-300 mb-2 flex items-center gap-2",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
-                                            className: "text-blue-600 dark:text-blue-400",
-                                            size: 24
+                                            size: 18,
+                                            className: "text-green-500"
                                         }, void 0, false, {
                                             fileName: "[project]/app/branches/page.tsx",
-                                            lineNumber: 132,
+                                            lineNumber: 98,
                                             columnNumber: 17
                                         }, this),
-                                        branch.name
+                                        branch.address
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/branches/page.tsx",
-                                    lineNumber: 131,
+                                    lineNumber: 97,
                                     columnNumber: 15
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "space-y-3 text-gray-700 dark:text-gray-300",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-700 dark:text-gray-300 font-medium flex items-center gap-2 mb-4",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "flex items-start gap-2",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
-                                                    size: 18,
-                                                    className: "mt-1 flex-shrink-0"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/branches/page.tsx",
-                                                    lineNumber: 138,
-                                                    columnNumber: 19
-                                                }, this),
-                                                branch.address
-                                            ]
-                                        }, void 0, true, {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
+                                            size: 18,
+                                            className: "text-green-500"
+                                        }, void 0, false, {
                                             fileName: "[project]/app/branches/page.tsx",
-                                            lineNumber: 137,
+                                            lineNumber: 102,
                                             columnNumber: 17
                                         }, this),
-                                        branch.phone && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "flex items-center gap-2",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
-                                                    size: 18,
-                                                    className: "text-green-600 dark:text-green-400"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/branches/page.tsx",
-                                                    lineNumber: 144,
-                                                    columnNumber: 21
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                    href: `tel:${branch.phone.replace(/\s/g, "")}`,
-                                                    className: "hover:text-green-600 dark:hover:text-green-400 transition",
-                                                    children: branch.phone
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/branches/page.tsx",
-                                                    lineNumber: 145,
-                                                    columnNumber: 21
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
+                                        branch.phone
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/branches/page.tsx",
+                                    lineNumber: 101,
+                                    columnNumber: 15
+                                }, this),
+                                branch.mapsLink && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: branch.mapsLink,
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    className: "inline-flex items-center gap-2 text-green-500 hover:text-green-400 font-medium",
+                                    children: [
+                                        "Get Directions on Google Maps",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__["ExternalLink"], {
+                                            size: 16
+                                        }, void 0, false, {
                                             fileName: "[project]/app/branches/page.tsx",
-                                            lineNumber: 143,
+                                            lineNumber: 113,
                                             columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(branch.address + ", South Africa")}`,
-                                            target: "_blank",
-                                            rel: "noopener noreferrer",
-                                            className: "inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 text-sm mt-2 transition",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__["ExternalLink"], {
-                                                    size: 16
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/branches/page.tsx",
-                                                    lineNumber: 160,
-                                                    columnNumber: 19
-                                                }, this),
-                                                "Get Directions on Google Maps"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/branches/page.tsx",
-                                            lineNumber: 154,
-                                            columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/branches/page.tsx",
-                                    lineNumber: 136,
-                                    columnNumber: 15
+                                    lineNumber: 106,
+                                    columnNumber: 17
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "[project]/app/branches/page.tsx",
-                            lineNumber: 123,
+                            lineNumber: 87,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/app/branches/page.tsx",
-                    lineNumber: 121,
+                    lineNumber: 85,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -287,7 +207,7 @@ function Branches() {
                             children: "Can't find your area? Call our 24/7 emergency line for assistance."
                         }, void 0, false, {
                             fileName: "[project]/app/branches/page.tsx",
-                            lineNumber: 169,
+                            lineNumber: 121,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -298,31 +218,31 @@ function Branches() {
                                     size: 24
                                 }, void 0, false, {
                                     fileName: "[project]/app/branches/page.tsx",
-                                    lineNumber: 176,
+                                    lineNumber: 128,
                                     columnNumber: 13
                                 }, this),
                                 "Call 072 700 1800 Now"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/branches/page.tsx",
-                            lineNumber: 172,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/branches/page.tsx",
-                    lineNumber: 168,
+                    lineNumber: 120,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/branches/page.tsx",
-            lineNumber: 106,
+            lineNumber: 75,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/branches/page.tsx",
-        lineNumber: 105,
+        lineNumber: 74,
         columnNumber: 5
     }, this);
 }

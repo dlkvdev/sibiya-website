@@ -61,6 +61,8 @@ const translations: Record<Language, Record<string, string>> = {
     thousandsServed: "Thousands of families served with dignity and care.",
     talkToUs: "Talk to Us",
     testimonialsTitle:"What Our Clients Say?",
+    onlinePayments: "Pay online",
+    PayOnline: "Pay Online",
   },
   zu: {
     home: "Ikhaya",
@@ -110,7 +112,10 @@ const translations: Record<Language, Record<string, string>> = {
     ourBranches: "Amagatsha Ethu",
     thousandsServed: "Izinkulungwane zemindeni esekelwe ngesithunzi nokunakekelwa",
     talkToUs: "Khuluma Nathi",
-    testimonialsTitle:"Bathini abantu ngathi?"
+    testimonialsTitle:"Bathini abantu ngathi?",
+    onlinePayments: "Ukukhokha Ku-inthanethi ",
+    PayOnline: "Khokha Online",
+
   },
 };
 

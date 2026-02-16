@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Base styles - light mode unchanged */
+/* Base styles */
 html, body {
   height: 100%;
   min-height: 100vh;
@@ -12,16 +12,38 @@ html, body {
   padding: 0;
 }
 
-/* Light mode (original) */
+/* Light mode defaults (home page etc. stay light) */
 body {
   background: linear-gradient(to bottom, #f9fafb, #ffffff);
-  color: #111827; /* gray-900 / black text */
+  color: #111827;
 }
 
-/* Dark mode body */
+/* Dark mode defaults */
 .dark body {
-  background: linear-gradient(to bottom, #000000, #0f172a); /* black → slate-950 */
-  color: #f9fafb; /* white/light text */
+  background: linear-gradient(to bottom, #000000, #0f172a);
+  color: #f9fafb;
+}
+
+/* Force dark background + white text on specific pages in light mode */
+.about-page,
+.branches-page,
+.payments-page,
+.about-page *,
+.branches-page *,
+.payments-page * {
+  background-color: #0f172a !important; /* dark slate in light mode */
+  color: #ffffff !important; /* white text in light mode */
+}
+
+/* Dark mode keeps dark background + white text */
+.dark .about-page,
+.dark .branches-page,
+.dark .payments-page,
+.dark .about-page *,
+.dark .branches-page *,
+.dark .payments-page * {
+  background-color: #000000 !important;
+  color: #f9fafb !important;
 }
 
 /* Cards/sections in light mode (original) */
@@ -33,7 +55,7 @@ section {
   background-color: #ffffff;
 }
 
-/* Dark mode cards/sections - black bg + white text + subtle border */
+/* Dark mode cards/sections */
 .dark .bg-white,
 .dark .bg-gray-50,
 .dark .bg-blue-50,
@@ -43,42 +65,29 @@ section {
 .dark .shadow-xl {
   background-color: #000000 !important;
   color: #f9fafb !important;
-  border: 1px solid #334155 !important; /* subtle slate-700 border */
+  border: 1px solid #334155 !important;
 }
 
-/* NUCLEAR OVERRIDE: Force ALL gray text to black in light mode */
+/* Text contrast fixes - white in both modes for these pages */
 .text-gray-900,
 .text-gray-800,
 .text-gray-700,
 .text-gray-600,
 .text-gray-500,
-.text-gray-400,
-.text-gray-300 {
-  color: #000000 !important; /* solid black in light mode */
+.text-gray-400 {
+  color: #ffffff !important; /* white text in light mode on these pages */
 }
 
-/* Dark mode keeps light text */
 .dark .text-gray-900,
 .dark .text-gray-800,
 .dark .text-gray-700,
 .dark .text-gray-600,
 .dark .text-gray-500,
-.dark .text-gray-400,
-.dark .text-gray-300 {
+.dark .text-gray-400 {
   color: #f9fafb !important;
 }
 
-/* Specific overrides for Founder Recognition & Our Growth cards (dark mode white text) */
-.dark .founder-recognition h3,
-.dark .founder-recognition p,
-.dark .founder-recognition blockquote,
-.dark .our-growth .card h3,
-.dark .our-growth .card p,
-.dark .our-growth .card span {
-  color: #ffffff !important; /* pure white in dark mode */
-}
-
-/* Footer - light: original white/gray, dark: black */
+/* Footer */
 footer {
   background-color: #ffffff;
   color: #111827;
@@ -86,23 +95,23 @@ footer {
 
 .dark footer {
   background-color: #000000;
-  color: #ffffff;
+  color: #f9fafb;
 }
 
-/* Header scrolled - light: original, dark: black */
+/* Header scrolled */
 header.scrolled {
-  background-color: transparent; /* or your original */
+  background-color: transparent;
 }
 
 .dark header.scrolled {
   background-color: #000000 !important;
 }
 
-/* Mobile drawer text - keep original colors */
+/* Mobile drawer */
 .text-yellow-300 { color: #fde047; }
-.dark .text-yellow-300 { color: #f3f4f6; } /* light gray in dark */
+.dark .text-yellow-300 { color: #f3f4f6; }
 
-/* Hover states */
+/* Hover */
 a:hover,
 button:hover {
   color: #22c55e !important;
@@ -113,7 +122,7 @@ button:hover {
   color: #86efac !important;
 }
 
-/* Social icons in light mode - white with no dark background */
+/* Social icons */
 a[href*="facebook"] svg,
 a[href*="tiktok"] svg,
 a[href*="youtube"] svg {
@@ -144,7 +153,7 @@ a[href*="youtube"]:hover svg {
   background-color: transparent !important;
 }
 
-/* Custom marker (HQ symbol) */
+/* Custom marker */
 .custom-marker-head {
   background-color: #dc2626 !important;
   border: 3px solid #991b1b !important;

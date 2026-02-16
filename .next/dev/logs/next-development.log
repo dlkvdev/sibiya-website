@@ -1,44 +1,69 @@
-[00:00:01.219] Server  LOG     ✓ Ready in 827ms
-[00:00:02.126] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:02.871] Browser LOG     Applying theme: light
-[00:00:07.238] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.406] Browser LOG     Applying theme: light
-[00:02:02.787] Server  LOG     ✓ Compiled in 968ms
-[00:02:11.144] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:11.333] Browser LOG     Applying theme: light
-[00:03:32.884] Browser LOG     Toggle: light → dark
-[00:03:32.884] Browser LOG     Toggle: light → dark
-[00:03:32.884] Browser LOG     Applying theme: dark
-[00:03:36.086] Browser LOG     Toggle: dark → light
-[00:03:36.086] Browser LOG     Toggle: dark → light
-[00:03:36.086] Browser LOG     Applying theme: light
-[00:03:37.182] Browser LOG     Toggle: light → dark
-[00:03:37.182] Browser LOG     Toggle: light → dark
-[00:03:37.182] Browser LOG     Applying theme: dark
-[00:03:40.133] Browser LOG     Toggle: dark → light
-[00:03:40.133] Browser LOG     Toggle: dark → light
-[00:03:40.133] Browser LOG     Applying theme: light
-[00:03:44.988] Browser LOG     Toggle: light → dark
-[00:03:44.988] Browser LOG     Toggle: light → dark
-[00:03:44.988] Browser LOG     Applying theme: dark
-[00:03:45.840] Browser LOG     Toggle: dark → light
-[00:03:45.840] Browser LOG     Toggle: dark → light
-[00:03:45.840] Browser LOG     Applying theme: light
-[00:03:46.549] Browser LOG     Toggle: light → dark
-[00:03:46.549] Browser LOG     Toggle: light → dark
-[00:03:46.549] Browser LOG     Applying theme: dark
-[00:03:47.118] Browser LOG     Toggle: dark → light
-[00:03:47.119] Browser LOG     Toggle: dark → light
-[00:03:47.119] Browser LOG     Applying theme: light
-[00:04:22.476] Server  LOG     ✓ Compiled in 347ms
-[00:04:30.261] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:30.593] Browser LOG     Applying theme: light
-[00:06:10.706] Server  LOG     ✓ Compiled in 306ms
-[00:07:39.550] Server  LOG     ✓ Compiled in 317ms
-[00:07:57.949] Server  LOG     ✓ Compiled in 249ms
-[00:08:24.641] Browser LOG     Toggle: light → dark
-[00:08:24.642] Browser LOG     Toggle: light → dark
-[00:08:24.642] Browser LOG     Applying theme: dark
-[00:08:25.795] Browser LOG     Toggle: dark → light
-[00:08:25.795] Browser LOG     Toggle: dark → light
-[00:08:25.795] Browser LOG     Applying theme: light
+[00:00:01.130] Server  LOG     ✓ Ready in 773ms
+[00:00:15.124] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.673] Browser LOG     Applying theme: light
+[00:00:42.660] Browser LOG     Toggle: light → dark
+[00:00:42.660] Browser LOG     Toggle: light → dark
+[00:00:42.660] Browser LOG     Applying theme: dark
+[00:00:46.428] Browser LOG     Toggle: dark → light
+[00:00:46.428] Browser LOG     Toggle: dark → light
+[00:00:46.428] Browser LOG     Applying theme: light
+[00:01:51.114] Server  LOG     ✓ Compiled in 273ms
+[00:02:04.561] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:05.028] Browser LOG     Applying theme: light
+[00:02:59.337] Server  LOG     ✓ Compiled in 257ms
+[00:03:06.495] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:06.976] Browser LOG     Applying theme: light
+[00:06:41.035] Server  LOG     ✓ Compiled in 239ms
+[00:06:55.106] Browser LOG     Toggle: light → dark
+[00:06:55.106] Browser LOG     Toggle: light → dark
+[00:06:55.106] Browser LOG     Applying theme: dark
+[00:06:58.240] Browser LOG     Toggle: dark → light
+[00:06:58.240] Browser LOG     Toggle: dark → light
+[00:06:58.240] Browser LOG     Applying theme: light
+[00:08:24.613] Server  LOG     ✓ Compiled in 214ms
+[00:08:36.483] Browser LOG     Toggle: light → dark
+[00:08:36.483] Browser LOG     Toggle: light → dark
+[00:08:36.483] Browser LOG     Applying theme: dark
+[00:08:40.547] Browser LOG     Toggle: dark → light
+[00:08:40.547] Browser LOG     Toggle: dark → light
+[00:08:40.547] Browser LOG     Applying theme: light
+[00:09:28.761] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true s s true s
+[00:11:33.283] Server  LOG     ✓ Compiled in 380ms
+[00:11:39.038] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:39.426] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true s s true s
+[00:11:39.426] Browser LOG     Applying theme: light
+[00:13:11.066] Server  LOG     ✓ Compiled in 295ms
+[00:13:17.108] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:17.298] Browser LOG     Applying theme: light
+[00:16:24.562] Server  LOG     ✓ Compiled in 240ms
+[00:16:37.523] Server  LOG     ✓ Compiled in 79ms
+[00:17:34.841] Server  LOG     ✓ Compiled in 212ms
+[00:17:40.007] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:40.360] Browser LOG     Applying theme: light
+[00:18:56.171] Server  LOG     ✓ Compiled in 392ms
+[00:19:00.227] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:00.452] Browser LOG     Applying theme: light
+[00:20:17.426] Server  LOG     ✓ Compiled in 294ms
+[00:21:38.402] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true s s true s
+[00:28:27.592] Server  LOG     ✓ Compiled in 211ms
+[00:28:46.659] Server  LOG     ✓ Compiled in 159ms
+[00:29:04.287] Server  LOG     ✓ Compiled in 145ms
+[00:29:22.194] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:22.538] Browser LOG     Applying theme: light
+[00:32:08.214] Server  LOG     ✓ Compiled in 271ms
+[00:33:02.251] Server  LOG     ✓ Compiled in 165ms
+[00:33:22.601] Server  LOG     ✓ Compiled in 105ms
+[00:34:56.150] Server  LOG     ✓ Compiled in 99ms
+[00:36:34.927] Server  LOG     ✓ Compiled in 105ms
+[00:37:38.463] Browser LOG     Toggle: light → dark
+[00:37:38.463] Browser LOG     Toggle: light → dark
+[00:37:38.463] Browser LOG     Applying theme: dark
+[00:37:46.450] Browser LOG     Toggle: dark → light
+[00:37:46.450] Browser LOG     Toggle: dark → light
+[00:37:46.450] Browser LOG     Applying theme: light

@@ -51,6 +51,12 @@
       "regex": "^/branches(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/branches(?:/)?$"
+    },
+    {
+      "page": "/payments",
+      "regex": "^/payments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/payments(?:/)?$"
     }
   ],
   "dataRoutes": [],
