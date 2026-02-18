@@ -37,7 +37,7 @@ export default function Header() {
     { key: "home", href: "/" },
     { key: "aboutUs", href: "/about" },
     { key: "branches", href: "/branches" },
-    { key: "PayOnline", href: "/payments" },  // ← New tab added
+    { key: "PayOnline", href: "/payments" },  
   ];
 
   const t = useLanguage().t;

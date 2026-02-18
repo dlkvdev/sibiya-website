@@ -15,7 +15,7 @@ html, body {
 /* Light mode defaults (home page etc. stay light) */
 body {
   background: linear-gradient(to bottom, #f9fafb, #ffffff);
-  color: #111827;
+  color: #0f2b69;
 }
 
 /* Dark mode defaults */
@@ -42,7 +42,7 @@ body {
 .dark .about-page *,
 .dark .branches-page *,
 .dark .payments-page * {
-  background-color: #000000 !important;
+  background-color: #03075b !important;
   color: #f9fafb !important;
 }
 

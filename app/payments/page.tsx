@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
 import { Construction } from "lucide-react";
 
+
 export default function Payments() {
   const { t } = useLanguage();
 

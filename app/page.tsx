@@ -36,6 +36,7 @@ import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
 import Footer from "./components/Footer";
 import SpecialAlert from "./components/SpecialAlert";
+import JoiningRequirementsModal from "./components/JoiningRequirementsModal";
 
 const heroImages = [
   "/images/carausel/hero-bg0.jpg",
@@ -225,6 +226,7 @@ export default function Home() {
   const [isQuoteOpen, setIsQuoteOpen] = useState(false);
   const [selectedCover, setSelectedCover] = useState<any>(null);
   const [showFloatingButton, setShowFloatingButton] = useState(false);
+  const [isJoinModalOpen, setIsJoinModalOpen] = useState(false);
 
   useEffect(() => {
     if (inView) {
@@ -340,7 +342,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             {t("legacyTitle")}
-          </motion.h2>.
+          </motion.h2>
 
           <div ref={ref} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
             {/* Branches */}
@@ -466,102 +468,22 @@ export default function Home() {
             ))}
           </div>
 
-          {/* Additional Benefits */}
-          <div className="mt-20 text-center">
-            <h3 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-12">
-              {t("benefitsTitle")}
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-              {/* Free Grocery Hamper */}
-              <div className="bg-white dark:bg-slate-900 p-8 rounded-xl shadow-lg flex flex-col items-center text-center">
-                <img
-                  src="/images/benefits/groceries.png"
-                  alt="Free grocery hamper delivered before the funeral"
-                  className="w-full h-40 object-cover rounded-lg mb-4"
-                />
-                <h4 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-                  Free Grocery Hamper
-                </h4>
-                <p className="text-gray-600 dark:text-gray-400">
-                  Essential groceries delivered to the family prior to the funeral day
-                </p>
-              </div>
-
-              {/* Urban Burial Support */}
-              <div className="bg-white dark:bg-slate-900 p-8 rounded-xl shadow-lg flex flex-col items-center text-center">
-                <img
-                  src="/images/benefits/bus.jpg"
-                  alt="64-seater bus for urban funeral transport"
-                  className="w-full h-40 object-cover rounded-lg mb-4"
-                />
-                <h4 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-                  Urban Burial Support (Selected Areas)
-                </h4>
-                <p className="text-gray-600 dark:text-gray-400 text-sm">
-                  R1,000 cash + burial site + 64-seater bus <br />
-                  <span className="font-medium">Pietermaritzburg, Howick, Estcourt, Mooi River & Hammarsdale only</span>
-                </p>
-              </div>
-
-              {/* Rural Homestead Burial Cash */}
-              <div className="bg-white dark:bg-slate-900 p-8 rounded-xl shadow-lg flex flex-col items-center text-center">
-                <img
-                  src="/images/benefits/cash3.jpg"
-                  alt="Grave preparation at rural homestead"
-                  className="w-full h-40 object-cover rounded-lg mb-4"
-                />
-                <h4 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-                  Rural Homestead Burial Cash
-                </h4>
-                <p className="text-gray-600 dark:text-gray-400 text-sm">
-                  R2,000 cash to the policy holder <br />
-                  <span className="font-medium">Pietermaritzburg, Howick, Estcourt, Mooi River & Hammarsdale only</span>
-                </p>
-              </div>
-
-              {/* Free Repatriation */}
-              <div className="bg-white dark:bg-slate-900 p-8 rounded-xl shadow-lg flex flex-col items-center text-center">
-                <div className="text-blue-900 dark:text-blue-300 mb-4">
-                  <Car size={48} />
-                </div>
-                <h4 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-                  Free Repatriation
-                </h4>
-                <p className="text-gray-600 dark:text-gray-400">From Gauteng to KZN</p>
-              </div>
-
-              {/* Combined Durban/Pinetown/Empangeni benefit */}
-              <div className="bg-white dark:bg-slate-900 p-8 rounded-xl shadow-lg flex flex-col items-center text-center">
-                <div className="text-blue-900 dark:text-blue-300 mb-4">
-                  <HeartHandshake size={48} />
-                </div>
-                <h4 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-                  Burial Support – Durban, Pinetown & Empangeni
-                </h4>
-                <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                  <strong>Home burial:</strong> R2,000 cash to the policy holder<br />
-                  <strong>Urban cemetery (municipality):</strong> R4,000 cash for grave hole + 64-seater bus<br />
-                  <span className="font-medium">Applies to Durban, Pinetown & Empangeni only</span>
-                </p>
-              </div>
-
-              {/* Post-Mortem Fees Covered */}
-              <div className="bg-white dark:bg-slate-900 p-8 rounded-xl shadow-lg flex flex-col items-center text-center">
-                <div className="text-blue-900 dark:text-blue-300 mb-4">
-                  <HeartHandshake size={48} />
-                </div>
-                <h4 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-                  Post-Mortem Fees Covered
-                </h4>
-                <p className="text-gray-600 dark:text-gray-400 text-sm">
-                  Doctor's post-mortem fees covered if the member passes at home <br />
-                  <span className="font-medium">All areas</span>
-                </p>
-              </div>
-            </div>
+          {/* Joining Requirements Button */}
+          <div className="text-center mt-12">
+            <button
+              onClick={() => setIsJoinModalOpen(true)}
+              className="bg-transparent border-2 border-green-500 hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-xl shadow-lg transition-all hover:scale-105"
+            >
+              Joining Requirements
+            </button>
           </div>
         </div>
       </section>
+
+      <JoiningRequirementsModal
+        isOpen={isJoinModalOpen}
+        onClose={() => setIsJoinModalOpen(false)}
+      />
 
       {/* Testimonials Section */}
       <section className="py-20 bg-white dark:bg-slate-900">
@@ -645,8 +567,7 @@ export default function Home() {
         </div>
       </section>
 
-
-     {/* Interactive Branches Map – visible on lg+ screens */}
+      {/* Interactive Branches Map – visible on lg+ screens */}
       <section className="py-20 bg-gray-50 dark:bg-slate-800 hidden lg:block">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-gray-900 dark:text-gray-100 text-center mb-12">
@@ -859,7 +780,6 @@ export default function Home() {
                   Contact: (not provided)
                 </Popup>
               </Marker>
-
             </MapContainer>
           </div>
           <p className="text-center mt-6 text-gray-600 dark:text-gray-400">
