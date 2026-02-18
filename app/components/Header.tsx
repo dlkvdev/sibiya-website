@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Menu, X, Globe, Sun, Moon, Facebook, Video, Youtube } from "lucide-react";
+import { Menu, X, Globe, Sun, Moon } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
 import { useTheme } from "@/context/ThemeContext";
@@ -37,7 +37,7 @@ export default function Header() {
     { key: "home", href: "/" },
     { key: "aboutUs", href: "/about" },
     { key: "branches", href: "/branches" },
-    { key: "PayOnline", href: "/payments" },  
+    { key: "payOnline", href: "/payments" },
   ];
 
   const t = useLanguage().t;
@@ -106,28 +106,40 @@ export default function Header() {
                 href="https://www.facebook.com/sibiyafuneralservices"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-green-400 transition-colors p-2"
+                className="transition-transform hover:scale-110"
                 aria-label="Facebook"
               >
-                <Facebook size={24} />
+                <img
+                  src="/images/icons/facebook.png"
+                  alt="Facebook"
+                  className="w-8 h-8 object-contain"
+                />
               </a>
               <a
                 href="https://www.tiktok.com/@sibiyafuneralservicesofficial"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-green-400 transition-colors p-2"
+                className="transition-transform hover:scale-110"
                 aria-label="TikTok"
               >
-                <Video size={24} />
+                <img
+                  src="/images/icons/tiktok.png"
+                  alt="TikTok"
+                  className="w-8 h-8 object-contain"
+                />
               </a>
               <a
-                href="https://www.youtube.com/@sibiyafuneralservices"
+                href="https://www.youtube.com/@SibiyaFuneralsOfficial"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-green-400 transition-colors p-2"
+                className="transition-transform hover:scale-110"
                 aria-label="YouTube"
               >
-                <Youtube size={24} />
+                <img
+                  src="/images/icons/youtube.png"
+                  alt="YouTube"
+                  className="w-8 h-8 object-contain"
+                />
               </a>
             </div>
           </div>
@@ -210,28 +222,40 @@ export default function Header() {
                   href="https://www.facebook.com/sibiyafuneralservices"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-yellow-300 hover:text-green-400 transition-colors"
+                  className="transition-transform hover:scale-110"
                   aria-label="Facebook"
                 >
-                  <Facebook size={32} />
+                  <img
+                    src="/images/icons/facebook.png"
+                    alt="Facebook"
+                    className="w-10 h-10 object-contain"
+                  />
                 </a>
                 <a
                   href="https://www.tiktok.com/@sibiyafuneralservicesofficial"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-yellow-300 hover:text-green-400 transition-colors"
+                  className="transition-transform hover:scale-110"
                   aria-label="TikTok"
                 >
-                  <Video size={32} />
+                  <img
+                    src="/images/icons/tiktok.png"
+                    alt="TikTok"
+                    className="w-10 h-10 object-contain"
+                  />
                 </a>
                 <a
-                  href="https://www.youtube.com/@sibiyafuneralservices"
+                  href="https://www.youtube.com/@SibiyaFuneralsOfficial"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-yellow-300 hover:text-green-400 transition-colors"
+                  className="transition-transform hover:scale-110"
                   aria-label="YouTube"
                 >
-                  <Youtube size={32} />
+                  <img
+                    src="/images/icons/youtube.png"
+                    alt="YouTube"
+                    className="w-10 h-10 object-contain"
+                  />
                 </a>
               </div>
             </div>

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "\"C:\\nvm4w\\nodejs\\node.exe\" ./node_modules/next/dist/bin/next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -17,6 +17,7 @@
     "react": "latest",
     "react-countup": "^6.5.3",
     "react-dom": "latest",
+    "react-icons": "^5.5.0",
     "react-intersection-observer": "^9.13.1",
     "react-leaflet": "^5.0.0"
   },

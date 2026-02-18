@@ -515,12 +515,12 @@ img, video {
   width: 4rem;
 }
 
-.w-3 {
-  width: .75rem;
+.w-28 {
+  width: 7rem;
 }
 
-.w-32 {
-  width: 8rem;
+.w-3 {
+  width: .75rem;
 }
 
 .w-5 {
@@ -537,10 +537,6 @@ img, video {
 
 .w-full {
   width: 100%;
-}
-
-.w-28 {
-  width: 7rem;
 }
 
 .max-w-2xl {
@@ -650,6 +646,12 @@ img, video {
   gap: 2rem;
 }
 
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(.5rem * var(--tw-space-y-reverse));
+}
+
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(.75rem * calc(1 - var(--tw-space-y-reverse)));
@@ -666,12 +668,6 @@ img, video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
-
-.space-y-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(.5rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden {
@@ -760,6 +756,10 @@ img, video {
   border-color: rgb(34 197 94 / var(--tw-border-opacity, 1));
 }
 
+.border-green-500\/30 {
+  border-color: #22c55e4d;
+}
+
 .border-green-600 {
   --tw-border-opacity: 1;
   border-color: rgb(22 163 74 / var(--tw-border-opacity, 1));
@@ -770,16 +770,16 @@ img, video {
   border-color: rgb(220 38 38 / var(--tw-border-opacity, 1));
 }
 
-.border-green-500\/30 {
-  border-color: #22c55e4d;
-}
-
 .bg-black\/50 {
   background-color: #00000080;
 }
 
 .bg-black\/60 {
   background-color: #0009;
+}
+
+.bg-black\/70 {
+  background-color: #000000b3;
 }
 
 .bg-blue-50 {
@@ -826,6 +826,10 @@ img, video {
   background-color: rgb(30 41 59 / var(--tw-bg-opacity, 1));
 }
 
+.bg-slate-800\/60 {
+  background-color: #1e293b99;
+}
+
 .bg-slate-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));
@@ -838,14 +842,6 @@ img, video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-black\/70 {
-  background-color: #000000b3;
-}
-
-.bg-slate-800\/60 {
-  background-color: #1e293b99;
 }
 
 .object-contain {
@@ -952,8 +948,8 @@ img, video {
   padding-left: 1rem;
 }
 
-.pl-6 {
-  padding-left: 1.5rem;
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
 .pt-32 {
@@ -962,10 +958,6 @@ img, video {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pl-5 {
-  padding-left: 1.25rem;
 }
 
 .text-left {
