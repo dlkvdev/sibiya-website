@@ -1,0 +1,188 @@
+1. Replace Durban -Umngeni with the following address :
+260 Monty Naicker Road, Durban Central, Durban 
+
+2.remove "Johannesburg – 6th Street
+6th Street, Johannesburg
+
+3. Update contact for the office in 10 helston street with 010 442 4431
+
+4. Add another office in Greytown : "65 Maitland Road, Greytown"
+
+5.Update address for Richmond office to "15 Chilli Street Richmond"
+
+6.Update the Estcourt offices, new addresses for 2 offices in escourt:
+	118 Phillips Street
+	Broadway
+	Estcourt
+	036 940 0551
+
+	107 Lorne Street
+	Estcourt
+	0369400853
+
+7.Add Ixopo office :
+	15 Margaret Street 
+	Ixopo
+	Contact: 0760769075
+
+8. Update Mooi River office addresses for 2 offices:
+	01 Stock lane
+	mooi river
+	0319444522
+ 	
+	35 York Terrance 
+	0339403778
+
+9.update Portshepstone office to the following address:
+	11 Robinson Street
+	PortShepstone
+	0333070143
+	0399402467
+
+10. Update contact for Empangeni office to 0359400310
+
+11.Replace records of Pinetown office with the following address for Pinetown office:
+	05 Joshua Gumede Road 
+	Pinetown
+	contact: 0319405414
+
+12.Add KwaMashu office:
+	2 Hunslet Road
+	KwaBester 
+	Kwamashu
+13. Update Hammarsdale office address:
+	176 Kunene Road
+	Hammarsdale
+	033 9403789
+	add note : Ku GoSlow wakwaMcoyi
+
+14.Add Stanger office:
+	20 Hullet Street
+	Sky Plaza
+	Stanger
+	0319425770
+
+15. Update Wartburg office addresses for 2 offices:
+	36 Noordsburg Road
+	Wartburg
+
+	10 Mill Road 
+	Wartburg 
+	033 307 0116
+
+16.Update Dalton Office:
+	No 02 Old Main road
+	Dalton
+	0339403780
+
+17.Update contacts for Bhamshela:
+	033 940 3668
+
+18. Add Tongaat Office:
+	Shop 314 Hijaz AZ Centre
+	06 Main Road
+	Tongaat
+
+19.Add Richards Bay Office 
+	21 Bullion BLVD
+	Richards Bay
+
+20. Add Isipingo Office
+	204 Redbro Centre
+	0319425777
+
+21. Add Verulam Office:
+	26 Ricland Street
+	22 A Shop
+	Checkrite Parking
+	065 912 1736
+ 	071 401 6988
+
+22. Add Ulundi Office:
+	Unit 14 
+	Fairbreeze Office Park
+	481 Princess Magogo Street
+	Ulundi
+	0359400311
+
+23.Add Another Isipingo Office:
+	124 Phila Ndwandwe Road
+	Shop 12 Near CheckSave Supermarket
+	031 942 5777
+
+24. Add Another Newcastle office:
+	Shop No5 
+	Voortrekker Street 
+	Opposite KwaMata Building
+	0349402940
+
+
+25. Add another Durban Office :
+	16-18 Lennox Road
+	Windermere Berea
+	Durban
+	0319400847
+
+26. Add Ladysmith office:
+	26 King Street
+	Ladysmith
+	0813860388
+
+27. I want a search field that the user can use to search for office and it must return the matching offices only when search is used
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
