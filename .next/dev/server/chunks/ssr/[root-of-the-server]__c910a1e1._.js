@@ -424,9 +424,9 @@ function Header() {
                                             className: "transition-transform hover:scale-110",
                                             "aria-label": "Facebook",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: "/icons/facebook.svg",
+                                                src: "/images/icons/facebook.png",
                                                 alt: "Facebook",
-                                                className: "w-8 h-8"
+                                                className: "w-8 h-8 object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Header.tsx",
                                                 lineNumber: 112,
@@ -444,9 +444,9 @@ function Header() {
                                             className: "transition-transform hover:scale-110",
                                             "aria-label": "TikTok",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: "/icons/tiktok.svg",
+                                                src: "/images/icons/tiktok.png",
                                                 alt: "TikTok",
-                                                className: "w-8 h-8"
+                                                className: "w-8 h-8 object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Header.tsx",
                                                 lineNumber: 125,
@@ -464,9 +464,9 @@ function Header() {
                                             className: "transition-transform hover:scale-110",
                                             "aria-label": "YouTube",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: "/icons/youtube.svg",
+                                                src: "/images/icons/youtube.png",
                                                 alt: "YouTube",
-                                                className: "w-8 h-8"
+                                                className: "w-8 h-8 object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Header.tsx",
                                                 lineNumber: 138,
@@ -678,9 +678,9 @@ function Header() {
                                             className: "transition-transform hover:scale-110",
                                             "aria-label": "Facebook",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: "images/icons/facebook.png",
+                                                src: "/images/icons/facebook.png",
                                                 alt: "Facebook",
-                                                className: "w-10 h-10"
+                                                className: "w-10 h-10 object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Header.tsx",
                                                 lineNumber: 228,
@@ -698,9 +698,9 @@ function Header() {
                                             className: "transition-transform hover:scale-110",
                                             "aria-label": "TikTok",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: "images/icons/tiktok.png",
+                                                src: "/images/icons/tiktok.png",
                                                 alt: "TikTok",
-                                                className: "w-10 h-10"
+                                                className: "w-10 h-10 object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Header.tsx",
                                                 lineNumber: 241,
@@ -718,9 +718,9 @@ function Header() {
                                             className: "transition-transform hover:scale-110",
                                             "aria-label": "YouTube",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: "images/icons/youtube.png",
+                                                src: "/images/icons/youtube.png",
                                                 alt: "YouTube",
-                                                className: "w-10 h-10"
+                                                className: "w-10 h-10 object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Header.tsx",
                                                 lineNumber: 254,
